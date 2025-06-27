@@ -8,8 +8,8 @@ Velkommen til Programmering Systemudvikling og Teknologi på 2. semester
 |     |                                                              |                                                         | SIEB      | MANY | IANB | DE | SIEB      | MANY | IANB | DE |
 |     | Turistguide 1                                                |                                                         |           |      |      |    |           |      |      |    |
 |     | Spring Boot intro, HTML/CSS                                  |                                                         |           |      |      |    |           |      |      |    |
-| 35  | [mandag 25-08](Uge%2035/%20%20%20%20Mandag.md)                             | Introduktion til semester og Spring Boot                |           | e    |      |    |           | m    |      |    |
-|     | tirsdag 26-08                                                | Spring Boot/HTML & CSS                                  | m         |      |      |    | e         |      |      |    |
+| 35  | [mandag 25-08](Uge%2035/%20%20%20Mandag.md)                             | Introduktion til semester og Spring Boot                |           | e    |      |    |           | m    |      |    |
+|     | [tirsdag 26-08](Uge%2035/%20%20Tirsdag.md)                                                | Spring Boot/HTML & CSS                                  | m         |      |      |    | e         |      |      |    |
 |     | onsdag 27-08                                                 | Check-in/vejledning på Turistguide 1                    | m         |      |      |    |           | m    |      |    |
 |     | torsdag 28-08                                                | ITF:                                                    |           |      |      | m  |           |      |      | e  |
 |     | fredag 29-08                                                 | HTML & CSS 2 + feedback Turistguide 1                   | e         |      |      |    | m         |      |      |    |
