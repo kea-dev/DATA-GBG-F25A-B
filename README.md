@@ -6,6 +6,11 @@
 -   Vi stræber stadig efter godt programdesign og høj kundeværdi
 -   Vi vil optimere og automatisere vores udviklingsproces ud fra CI/CD principperne (Continuous Integration og Continuous Delivery)
 
+**Forberedelse**
+-   Googl dig frem til lidt overordnet viden om de nye teknologier på 2. semester- se liste nedenfor. Brug ca. 20-30 minutter på dette.
+-   Se om du kan forstå client-server begrebet ud fra denne wiki [Client-server model](https://en.wikipedia.org/wiki/Client–server_model) (10 minutter)
+
+
   
 **Nye teknologier:**  
 Vi tegner i dag sammen det “store billede **” over de komponenter og teknologier, som I kommer til at arbejde med i løbet af semestret:
@@ -176,5 +181,5 @@ C --> D
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQyMDg1NzA2Ml19
+eyJoaXN0b3J5IjpbNjM5MTIzNzYzLDE0MjA4NTcwNjJdfQ==
 -->
