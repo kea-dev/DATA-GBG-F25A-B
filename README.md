@@ -1,112 +1,180 @@
-# DATA-GBG-F25A-B
-Velkommen til Programmering Systemudvikling og Teknologi på 2. semester
+# Indledning
+**Introduktion til 2. semester.**
+-   Vi går fra tekstbaserede standalone applikationer til webapplikationer
+-   Vi går fra tekstfiler til databaser
+-   Vi benytter stadig Scrum som udviklingsproces
+-   Vi stræber stadig efter godt programdesign og høj kundeværdi
+-   Vi vil optimere og automatisere vores udviklingsproces ud fra CI/CD principperne (Continuous Integration og Continuous Delivery)
 
-## Lektionsplan
+  
+**Nye teknologier:**  
+Vi tegner i dag sammen det “store billede **” over de komponenter og teknologier, som I kommer til at arbejde med i løbet af semestret:
 
-| Uge | Dag                                                          | Emner                                                   | Hold F25A |      |      |    | Hold F25B |      |      |    |
-|-----|--------------------------------------------------------------|---------------------------------------------------------|-----------|------|------|----|-----------|------|------|----|
-|     |                                                              |                                                         | SIEB      | MANY | IANB | DE | SIEB      | MANY | IANB | DE |
-|     | Turistguide 1                                                |                                                         |           |      |      |    |           |      |      |    |
-|     | Spring Boot intro, HTML/CSS                                  |                                                         |           |      |      |    |           |      |      |    |
-| 35  | [mandag 25-08](Uge%2035/%20%20%20Mandag.md)                             | Introduktion til semester og Spring Boot                |           | e    |      |    |           | m    |      |    |
-|     | [tirsdag 26-08](Uge%2035/%20%20Tirsdag.md)                                                | Spring Boot/HTML & CSS                                  | m         |      |      |    | e         |      |      |    |
-|     | [onsdag 27-08](Uge%2035/%20Onsdag.md)                                                 | Check-in/vejledning på Turistguide 1                    | m         |      |      |    |           | m    |      |    |
-|     | torsdag 28-08                                                | ITF:                                                    |           |      |      | m  |           |      |      | e  |
-|     | [fredag 29-08](Uge%2035/Fredag.md)                                                 | HTML & CSS 2 + feedback Turistguide 1                   | e         |      |      |    | m         |      |      |    |
-|     | Turistguide 2                                                |                                                         |           |      |      |    |           |      |      |    |
-|     | Spring Boot arkitektur, Thymeleaf                            |                                                         |           |      |      |    |           |      |      |    |
-| 36  | mandag 01-09                                                 | Spring Boot arkitektur, introduktion til ThymeLeaf, Map | e         |      |      |    | m         |      |      |    |
-|     | tirsdag 02-09                                                | ThymeLeaf Expression Language,HTML forms, Turistguide 2 | m         |      |      |    | e         |      |      |    |
-|     | onsdag 03-09                                                 | Check-in/vejledning på Turistguide 2                    | m         |      |      |    |           | m    |      |    |
-|     | torsdag 04-09                                                | ITF:                                                    |           |      |      | m  |           |      |      | e  |
-|     | fredag 05-09                                                 | MockMVC, Mockito og unit test af Controller             |           |      | e    |    |           |      | m    |    |
-|     | Git og kodekvalitet                                          |                                                         |           |      |      |    |           |      |      |    |
-| 37  | mandag 08-09                                                 | Operativsystemer, command shell & Git Bash              |           | e    |      |    |           | m    |      |    |
-|     | tirsdag 09-09                                                | Kode review med pull requests                           |           |      | m    |    |           |      | e    |    |
-|     | onsdag 10-09                                                 | Check-in/vejledning på Turistguide 2                    |           |      | m    |    |           | m    |      |    |
-|     | torsdag 11-09                                                | ITF:                                                    |           |      |      | m  |           |      |      | e  |
-|     | fredag 12-09                                                 | Statisk kodeanalyse med tools                           |           |      | e    |    |           |      | m    |    |
-|     | DevOps, CI/CD                                                |                                                         |           |      |      |    |           |      |      |    |
-| 38  | mandag 15-09                                                 | GitHub Actions 1                                        |           | e    |      |    |           | m    |      |    |
-|     | tirsdag 16-09                                                | GitHub Actions 2                                        |           | m    |      |    |           | e    |      |    |
-|     | onsdag 17-09                                                 | Check-in/vejledning på Turistguide 2                    |           |      | m    |    |           | m    |      |    |
-|     | torsdag 18-09                                                | ITF:                                                    |           |      |      | m  |           |      |      | e  |
-|     | fredag 19-09                                                 | Feedback og review af Turistguide 2                     |           |      | e    |    |           |      | m    |    |
-|     | Turistguide 3                                                |                                                         |           |      |      |    |           |      |      |    |
-|     | Databaser, SQL, E/R modellering                              |                                                         |           |      |      |    |           |      |      |    |
-| 39  | mandag 22-09                                                 | Databaser - introduktion til SQL                        |           | e    |      |    |           | m    |      |    |
-|     | tirsdag 23-09                                                | SQL 2                                                   | m         |      |      |    | e         |      |      |    |
-|     | onsdag 24-09                                                 | E/R model og relationel model                           | m         |      |      |    | m         |      |      |    |
-|     | torsdag 25-09                                                | ITF:                                                    |           |      |      | m  |           |      |      | e  |
-|     | fredag 26-09                                                 | Turistguide del 3, normalisering, SQL DDL               |           |      | e    |    |           |      | m    |    |
-|     | Jdbc, databaseintegration i Spring Boot, database deployment |                                                         |           |      |      |    |           |      |      |    |
-| 40  | mandag 29-09                                                 | ITF:                                                    |           |      |      | e  |           |      |      | m  |
-|     | tirsdag 30-09                                                | JDBCtemplate og Spring 1                                | m         |      |      |    | e         |      |      |    |
-|     | onsdag 01-10                                                 | Database deployment                                     |           | m    |      |    |           | m    |      |    |
-|     | torsdag 02-10                                                | JDBCtemplate og Spring 2                                | m         |      |      |    | e         |      |      |    |
-|     | fredag 03-10                                                 | Integrationstest                                        |           |      | e    |    |           |      | m    |    |
-|     | Testbar kode med lav kobling, interfaces, sessions           |                                                         |           |      |      |    |           |      |      |    |
-| 41  | mandag 06-10                                                 | Vejledning på Turistguide 3                             |           | e    |      |    |           | m    |      |    |
-|     | tirsdag 07-10                                                | Interfaces                                              |           |      | m    |    |           |      | e    |    |
-|     | onsdag 08-10                                                 | Check-in/vejledning på Turistguide 3                    |           |      | m    |    |           | m    |      |    |
-|     | torsdag 09-10                                                | Sessions                                                | m         |      |      |    | e         |      |      |    |
-|     | fredag 10-10                                                 | Turistguide del 3 - afslutning                          |           |      | e    |    |           |      | m    |    |
-|     | EFTERÅRSFERIE                                                |                                                         |           |      |      |    |           |      |      |    |
-| 42  | Undervisningsfri                                             |                                                         |           |      |      |    |           |      |      |    |
-|     | Miniprojekt                                                  |                                                         |           |      |      |    |           |      |      |    |
-|     | UX/UI, GitHub Projects                                       |                                                         |           |      |      |    |           |      |      |    |
-| 43  | mandag 20-10                                                 | Kickoff - Wishlist-projekt & GitHub Projects            |           |      |      |    |           |      |      |    |
-|     | tirsdag 21-10                                                | User interface design                                   |           |      |      |    |           |      |      |    |
-|     | onsdag 22-10                                                 | Wishlist - projektvejledning                            |           |      |      |    |           |      |      |    |
-|     | torsdag 23-10                                                | ITF: Wishlist PO - møde                                 |           |      |      |    |           |      |      |    |
-|     | fredag 24-10                                                 | Wishlist - projektvejledning                            |           |      |      |    |           |      |      |    |
-|     | Transaktioner, error handling                                |                                                         |           |      |      |    |           |      |      |    |
-| 44  | mandag 27-10                                                 | Databasetransaktioner                                   |           |      |      |    |           |      |      |    |
-|     | tirsdag 28-10                                                | Wishlist - projektvejledning                            |           |      |      |    |           |      |      |    |
-|     | onsdag 29-10                                                 | Wishlist - projektvejledning                            |           |      |      |    |           |      |      |    |
-|     | torsdag 30-10                                                | ITF: PO-møde                                            |           |      |      |    |           |      |      |    |
-|     | fredag 31-10                                                 | Fejlhåndtering i Spring Boot + evaluering               |           |      |      |    |           |      |      |    |
-|     | Projektarbejde                                               |                                                         |           |      |      |    |           |      |      |    |
-| 45  | mandag 03-11                                                 | Wishlist - projektvejledning                            |           |      |      |    |           |      |      |    |
-|     | tirsdag 04-11                                                | Wishlist - projektvejledning                            |           |      |      |    |           |      |      |    |
-|     | onsdag 05-11                                                 | Wishlist - projektvejledning                            |           |      |      |    |           |      |      |    |
-|     | torsdag 06-11                                                | ITF: Retrospective                                      |           |      |      |    |           |      |      |    |
-|     | fredag 07-11                                                 | Afslutning Wishlist-projekt                             |           |      |      |    |           |      |      |    |
-|     | Eksamensprojekt                                              |                                                         |           |      |      |    |           |      |      |    |
-|     | Collections, readme og contribute og projektstart            |                                                         |           |      |      |    |           |      |      |    |
-| 46  | mandag 10-11                                                 | Repetition/buffer/Java Collections                      |           |      |      |    |           |      |      |    |
-|     | tirsdag 11-11                                                | Repetition/buffer/Java Collections                      |           |      |      |    |           |      |      |    |
-|     | onsdag 12-11                                                 | Præsentation af eksamensprojekt (Sprint 0)              |           |      |      |    |           |      |      |    |
-|     | torsdag 13-11                                                | ITF: PO-møde                                            |           |      |      |    |           |      |      |    |
-|     | fredag 14-11                                                 | Eksamensprojekt - sprint 1 (readme og contribute)       |           |      |      |    |           |      |      |    |
-|     | Projektarbejde                                               |                                                         |           |      |      |    |           |      |      |    |
-| 47  | mandag 17-11                                                 | Eksamensprojekt - sprint 1                              |           |      |      |    |           |      |      |    |
-|     | tirsdag 18-11                                                | Eksamensprojekt - sprint 1                              |           |      |      |    |           |      |      |    |
-|     | onsdag 19-11                                                 | Eksamensprojekt - sprint 1                              |           |      |      |    |           |      |      |    |
-|     | torsdag 20-11                                                | ITF: PO-møde                                            |           |      |      |    |           |      |      |    |
-|     | fredag 21-11                                                 | Eksamensprojekt - sprint 1                              |           |      |      |    |           |      |      |    |
-|     | Projektarbejde                                               |                                                         |           |      |      |    |           |      |      |    |
-| 48  | mandag 24-11                                                 | Eksamensprojekt - sprint 1                              |           |      |      |    |           |      |      |    |
-|     | tirsdag 25-11                                                | Eksamensprojekt - sprint 1                              |           |      |      |    |           |      |      |    |
-|     | onsdag 26-11                                                 | Eksamensprojekt - sprint 1                              |           |      |      |    |           |      |      |    |
-|     | torsdag 27-11                                                | ITF: PO-møde                                            |           |      |      |    |           |      |      |    |
-|     | fredag 28-11                                                 | Eksamensprojekt - sprint 1                              |           |      |      |    |           |      |      |    |
-|     | Projektarbejde                                               |                                                         |           |      |      |    |           |      |      |    |
-| 49  | mandag 01-12                                                 | Rapport, præsentation, eksamination                     |           |      |      |    |           |      |      |    |
-|     | tirsdag 02-12                                                | Eksamensprojekt - sprint 1                              |           |      |      |    |           |      |      |    |
-|     | onsdag 03-12                                                 | Eksamensprojekt - sprint 1                              |           |      |      |    |           |      |      |    |
-|     | torsdag 04-12                                                | ITF: PO-møde                                            |           |      |      |    |           |      |      |    |
-|     | fredag 05-12                                                 | Eksamensprojekt - sprint 2                              |           |      |      |    |           |      |      |    |
-|     | Projektarbejde                                               |                                                         |           |      |      |    |           |      |      |    |
-| 50  | mandag 08-12                                                 | Eksamensprojekt - sprint 2                              |           |      |      |    |           |      |      |    |
-|     | tirsdag 09-12                                                | Eksamensprojekt - sprint 2                              |           |      |      |    |           |      |      |    |
-|     | onsdag 10-12                                                 | Eksamensprojekt - sprint 2                              |           |      |      |    |           |      |      |    |
-|     | torsdag 11-12                                                | ITF: Retrospective                                      |           |      |      |    |           |      |      |    |
-|     | fredag 12-12                                                 | Eksamensprojekt - sprint 2                              |           |      |      |    |           |      |      |    |
-|     | Projektarbejde                                               |                                                         |           |      |      |    |           |      |      |    |
-| 51  | mandag 15-12                                                 | Rapportskrivning - afsluttende spørgsmål                |           |      |      |    |           |      |      |    |
-|     | tirsdag 16-12                                                | Eksamensprojekt - sprint 2                              |           |      |      |    |           |      |      |    |
-|     | onsdag 17-12                                                 | Eksamensprojekt - sprint 2                              |           |      |      |    |           |      |      |    |
-|     | torsdag 18-12                                                |                                                         |           |      |      |    |           |      |      |    |
-|     | fredag 19-12                                                 |                                                         |           |      |      |    |           |      |      |    |
+-   Browser (HTML, CSS)
+-   Netværksprotokol (HTTP)
+-   Servere (Tomcat og MySQL)
+-   Spring Boot Web MVC Framework (Java web applikationer)
+-   Database med JDBC og SQL
+-   Github Actions (automatisering af workflow)
+-   Azure (deployment af webapplikation i skyen)
 
+  
+**Semestret – praktisk info**  
+  
+Vi går igennem semesterplanen, de obligatoriske opgaver, kravene til eksamen og hvad I ellers måtte have af spørgsmål til 2. semester.
+
+
+
+
+
+
+Hi! I'm your first Markdown file in **StackEdit**. If you want to learn about StackEdit, you can read me. If you want to play with Markdown, you can edit me. Once you have finished with me, you can create new files by opening the **file explorer** on the left corner of the navigation bar.
+
+    public static void main(String[] args) {
+	    //...
+    }
+
+
+# Files
+
+StackEdit stores your files in your browser, which means all your files are automatically saved locally and are accessible **offline!**
+
+## Create files and folders
+
+The file explorer is accessible using the button in left corner of the navigation bar. You can create a new file by clicking the **New file** button in the file explorer. You can also create folders by clicking the **New folder** button.
+
+## Switch to another file
+
+All your files and folders are presented as a tree in the file explorer. You can switch from one to another by clicking a file in the tree.
+
+## Rename a file
+
+You can rename the current file by clicking the file name in the navigation bar or by clicking the **Rename** button in the file explorer.
+
+## Delete a file
+
+You can delete the current file by clicking the **Remove** button in the file explorer. The file will be moved into the **Trash** folder and automatically deleted after 7 days of inactivity.
+
+## Export a file
+
+You can export the current file by clicking **Export to disk** in the menu. You can choose to export the file as plain Markdown, as HTML using a Handlebars template or as a PDF.
+
+
+# Synchronization
+
+Synchronization is one of the biggest features of StackEdit. It enables you to synchronize any file in your workspace with other files stored in your **Google Drive**, your **Dropbox** and your **GitHub** accounts. This allows you to keep writing on other devices, collaborate with people you share the file with, integrate easily into your workflow... The synchronization mechanism takes place every minute in the background, downloading, merging, and uploading file modifications.
+
+There are two types of synchronization and they can complement each other:
+
+- The workspace synchronization will sync all your files, folders and settings automatically. This will allow you to fetch your workspace on any other device.
+	> To start syncing your workspace, just sign in with Google in the menu.
+
+- The file synchronization will keep one file of the workspace synced with one or multiple files in **Google Drive**, **Dropbox** or **GitHub**.
+	> Before starting to sync files, you must link an account in the **Synchronize** sub-menu.
+
+## Open a file
+
+You can open a file from **Google Drive**, **Dropbox** or **GitHub** by opening the **Synchronize** sub-menu and clicking **Open from**. Once opened in the workspace, any modification in the file will be automatically synced.
+
+## Save a file
+
+You can save any file of the workspace to **Google Drive**, **Dropbox** or **GitHub** by opening the **Synchronize** sub-menu and clicking **Save on**. Even if a file in the workspace is already synced, you can save it to another location. StackEdit can sync one file with multiple locations and accounts.
+
+## Synchronize a file
+
+Once your file is linked to a synchronized location, StackEdit will periodically synchronize it by downloading/uploading any modification. A merge will be performed if necessary and conflicts will be resolved.
+
+If you just have modified your file and you want to force syncing, click the **Synchronize now** button in the navigation bar.
+
+> **Note:** The **Synchronize now** button is disabled if you have no file to synchronize.
+
+## Manage file synchronization
+
+Since one file can be synced with multiple locations, you can list and manage synchronized locations by clicking **File synchronization** in the **Synchronize** sub-menu. This allows you to list and remove synchronized locations that are linked to your file.
+
+
+# Publication
+
+Publishing in StackEdit makes it simple for you to publish online your files. Once you're happy with a file, you can publish it to different hosting platforms like **Blogger**, **Dropbox**, **Gist**, **GitHub**, **Google Drive**, **WordPress** and **Zendesk**. With [Handlebars templates](http://handlebarsjs.com/), you have full control over what you export.
+
+> Before starting to publish, you must link an account in the **Publish** sub-menu.
+
+## Publish a File
+
+You can publish your file by opening the **Publish** sub-menu and by clicking **Publish to**. For some locations, you can choose between the following formats:
+
+- Markdown: publish the Markdown text on a website that can interpret it (**GitHub** for instance),
+- HTML: publish the file converted to HTML via a Handlebars template (on a blog for example).
+
+## Update a publication
+
+After publishing, StackEdit keeps your file linked to that publication which makes it easy for you to re-publish it. Once you have modified your file and you want to update your publication, click on the **Publish now** button in the navigation bar.
+
+> **Note:** The **Publish now** button is disabled if your file has not been published yet.
+
+## Manage file publication
+
+Since one file can be published to multiple locations, you can list and manage publish locations by clicking **File publication** in the **Publish** sub-menu. This allows you to list and remove publication locations that are linked to your file.
+
+
+# Markdown extensions
+
+StackEdit extends the standard Markdown syntax by adding extra **Markdown extensions**, providing you with some nice features.
+
+> **ProTip:** You can disable any **Markdown extension** in the **File properties** dialog.
+
+
+## SmartyPants
+
+SmartyPants converts ASCII punctuation characters into "smart" typographic punctuation HTML entities. For example:
+
+|                |ASCII                          |HTML                         |
+|----------------|-------------------------------|-----------------------------|
+|Single backticks|`'Isn't this fun?'`            |'Isn't this fun?'            |
+|Quotes          |`"Isn't this fun?"`            |"Isn't this fun?"            |
+|Dashes          |`-- is en-dash, --- is em-dash`|-- is en-dash, --- is em-dash|
+
+
+## KaTeX
+
+You can render LaTeX mathematical expressions using [KaTeX](https://khan.github.io/KaTeX/):
+
+The *Gamma function* satisfying $\Gamma(n) = (n-1)!\quad\forall n\in\mathbb N$ is via the Euler integral
+
+$$
+\Gamma(z) = \int_0^\infty t^{z-1}e^{-t}dt\,.
+$$
+
+> You can find more information about **LaTeX** mathematical expressions [here](http://meta.math.stackexchange.com/questions/5020/mathjax-basic-tutorial-and-quick-reference).
+
+
+## UML diagrams
+
+You can render UML diagrams using [Mermaid](https://mermaidjs.github.io/). For example, this will produce a sequence diagram:
+
+```mermaid
+sequenceDiagram
+Alice ->> Bob: Hello Bob, how are you?
+Bob-->>John: How about you John?
+Bob--x Alice: I am good thanks!
+Bob-x John: I am good thanks!
+Note right of John: Bob thinks a long<br/>long time, so long<br/>that the text does<br/>not fit on a row.
+
+Bob-->Alice: Checking with John...
+Alice->John: Yes... John, how are you?
+```
+
+And this will produce a flow chart:
+
+```mermaid
+graph LR
+A[Square Rect] -- Link text --> B((Circle))
+A --> C(Round Rect)
+B --> D{Rhombus}
+C --> D
+
+
+```
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbMTQyMDg1NzA2Ml19
+-->
