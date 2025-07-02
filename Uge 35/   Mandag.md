@@ -8,6 +8,7 @@ Vi stræber stadig efter godt programdesign og høj kundeværdi
 Vi vil optimere og automatisere vores udviklingsproces ud fra CI/CD principperne (Continuous Integration og Continuous Delivery)
 
 **Nye teknologier:**
+
 Vi tegner i dag sammen det “store billede” over de komponenter og teknologier, som I kommer til at arbejde med i løbet af semestret:
 
  - Browser (HTML, CSS) Netværksprotokol (HTTP) Servere (Tomcat og MySQL)
@@ -24,5 +25,6 @@ Vi går igennem semesterplanen, de obligatoriske opgaver, kravene til eksamen og
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzA0MjYyNDA3LDg3NjMzOTA5MV19
+eyJoaXN0b3J5IjpbLTEwNTM0MzQxNTEsMzA0MjYyNDA3LDg3Nj
+MzOTA5MV19
 -->
