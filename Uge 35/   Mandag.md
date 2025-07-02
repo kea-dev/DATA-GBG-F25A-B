@@ -24,15 +24,16 @@ Vi går igennem semesterplanen, de obligatoriske opgaver, kravene til eksamen og
 ## Forberedelse
 Googl dig frem til lidt overordnet viden om de nye teknologier på 2. semester- se liste nedenfor. Brug ca. 20-30 minutter på dette.
 Se om du kan forstå client-server begrebet ud fra denne wiki [Client-server model](https://en.wikipedia.org/wiki/Client–server_model) (10  minutter)
+## Læringsmål
 
 ## Dagens program
-**The big picture:**
+
 
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzE5MDQ5MTc3LC0xMDUzNDM0MTUxLDMwND
-I2MjQwNyw4NzYzMzkwOTFdfQ==
+eyJoaXN0b3J5IjpbNzU0MzkwMDAxLDMxOTA0OTE3NywtMTA1Mz
+QzNDE1MSwzMDQyNjI0MDcsODc2MzM5MDkxXX0=
 -->
