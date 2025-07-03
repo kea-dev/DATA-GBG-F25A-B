@@ -30,3 +30,6 @@ Se om du kan forstå client-server begrebet ud fra denne wiki [Client-server mod
 
 
 
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbMTU4NDgxNjUxMV19
+-->
