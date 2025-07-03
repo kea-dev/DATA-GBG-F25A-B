@@ -26,14 +26,7 @@ Googl dig frem til lidt overordnet viden om de nye teknologier på 2. semester- 
 Se om du kan forstå client-server begrebet ud fra denne wiki [Client-server model](https://en.wikipedia.org/wiki/Client–server_model) (10  minutter)
 ## Læringsmål
 
-## Dagens program
+## Indhold
 
 
 
-
-
-
-<!--stackedit_data:
-eyJoaXN0b3J5IjpbNzU0MzkwMDAxLDMxOTA0OTE3NywtMTA1Mz
-QzNDE1MSwzMDQyNjI0MDcsODc2MzM5MDkxXX0=
--->
