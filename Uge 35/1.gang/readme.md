@@ -27,9 +27,6 @@ Se om du kan forstå client-server begrebet ud fra denne wiki [Client-server mod
 ## Læringsmål
 
 ## Indhold
+<img src="assets/client-server.png" alt="Alt Text" width="300" height="200">
 
 
-
-<!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU4NDgxNjUxMV19
--->
