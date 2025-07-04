@@ -1,8 +1,3 @@
-# DATA-GBG-F25A-B
-Velkommen til Programmering Systemudvikling og Teknologi på 2. semester
-
-**Bemærk:** Alle onsdage er online gruppevejledning med check-in, på nær **24/9, 1/10, 12/11** 
-
 ## Lektionsplan
 
 # DATA-GBG-F25A-B
