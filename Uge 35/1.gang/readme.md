@@ -13,7 +13,7 @@ Vi tegner i dag sammen det “store billede” over de komponenter og teknologie
   - Spring Boot Web MVC Framework (Java web applikationer)
   -  Database med JDBC og SQL 
 - Github Actions (automatisering af CI/CD workflow)
-- Azure (deployment af webapplikation og databse i skyen)
+- Azure (deployment af webapplikation og database i skyen)
 
 ### Semestret – praktisk info
 Vi går igennem semesterplanen, de obligatoriske opgaver, kravene til eksamen og hvad I ellers måtte have af spørgsmål til 2. semester.
