@@ -68,12 +68,12 @@ Semestret iudeholder tre "full-stack" projekter, som vist i nedenstående tabel:
 - Gå til File | New | Project...
 - Udfyld dialogbokse
 
-<img src="assets/spring-boot.png" alt="Alt Text" width="800">
-<img src="assets/spring-boot2.png" alt="Alt Text" width="300" height="200">
+<img src="assets/spring-boot.png" alt="Alt Text" width="700">
+<img src="assets/spring-boot2.png" alt="Alt Text" width="700">
 
 Opret en pakke `controller`
 
-<img src="assets/spring-boot3.png" alt="Alt Text" width="300" height="200">
+<img src="assets/spring-boot3.png" alt="Alt Text" width="700">
 
 Opret en klasse `WelcomeController` i `controller`pakken
 ```java
