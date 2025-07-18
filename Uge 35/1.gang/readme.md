@@ -24,11 +24,11 @@ Vi ser på hvad et endpoint er og hvordan man laver et endpont i Sprong Boot
 ## Forberedelse
 Googl dig frem til lidt overordnet viden om de nye teknologier på 2. semester- se liste nedenfor. Brug ca. 20-30 minutter på dette.
 Se om du kan forstå client-server begrebet ud fra denne wiki [Client-server model](https://en.wikipedia.org/wiki/Client–server_model) (10  minutter)
-Se disse videoer:
-[HTTP Essential Training](https://www.linkedin.com/learning/http-essential-training/what-is-http?resume=false&u=36836804)
-[Spring Boot REST API - Getting Started | Chapter-1 ](https://www.youtube.com/watch?v=A86pk2n-u9I&list=PLpxcSt9FGVVGRjn_Hgrxl6WJv4aFUDjKE&index=1)
-[Mastering @RequestMapping Annotation in Spring Boot | Chapter-2](https://www.youtube.com/watch?v=OhRstcHvIM4&list=PLpxcSt9FGVVGRjn_Hgrxl6WJv4aFUDjKE&index=2)
-[Mastering @RequestParam Annotation: A Step-by-Step Guide | Chapter-3](https://www.youtube.com/watch?v=TJG-LTLZo5s&list=PLpxcSt9FGVVGRjn_Hgrxl6WJv4aFUDjKE&index=3)
+Se disse videoer:  
+[HTTP Essential Training](https://www.linkedin.com/learning/http-essential-training/what-is-http?resume=false&u=36836804)  
+[Spring Boot REST API - Getting Started | Chapter-1 ](https://www.youtube.com/watch?v=A86pk2n-u9I&list=PLpxcSt9FGVVGRjn_Hgrxl6WJv4aFUDjKE&index=1)  
+[Mastering @RequestMapping Annotation in Spring Boot | Chapter-2](https://www.youtube.com/watch?v=OhRstcHvIM4&list=PLpxcSt9FGVVGRjn_Hgrxl6WJv4aFUDjKE&index=2)  
+[Mastering @RequestParam Annotation: A Step-by-Step Guide | Chapter-3](https://www.youtube.com/watch?v=TJG-LTLZo5s&list=PLpxcSt9FGVVGRjn_Hgrxl6WJv4aFUDjKE&index=3)  
 [@PathVariable Annotation: Everything You Need to Know | Chapter-4](https://www.youtube.com/watch?v=BVRRfmBHKSU&list=PLpxcSt9FGVVGRjn_Hgrxl6WJv4aFUDjKE&index=4)
 
 
@@ -93,6 +93,54 @@ public class WelcomeController {
 Afprøv allpikationen. Hvilken URl skal endponitet tilgås på?
 
 Prøv herefter at tilføje en `@RequestMapping("ea")`. Hvilken URL skal endpointet nu tilgås på?
+
+---
+
+## RestController vs Controller
+Når man bruger @RestController, bliver objekter automatisk konverteret til [JSON](https://en.wikipedia.org/wiki/JSON) og returneret i HTTP-responsen.
+Men når man bruger @Controller (som man normalt gør ved server-side rendering med Thymeleaf), forventer Spring, at man returnerer en String, som henviser til et view (f.eks. en .html-skabelon). Hvis man i stedet prøver at returnere data som objekter direkte, vil Spring forsøge at lede efter en Thymeleaf-side med det navn – og fejle.
+
+### Løsningen: ResponseEntity
+Ved at bruge ```ResponseEntity<>(dataObjekt, HttpStatus.STATUSKODE);``` kan man stadig returnere data fra en @Controller, men også http statuskoden.
+
+### Eksempel med brug af @Controller
+```java
+@Controller
+public class WelcomeController {
+    @GetMapping("welcome")
+    public ResponseEntity<String> welcome() {
+        return new ResponseEntity<>("Velkommen til 2. semester", HttpStatus.OK);
+    }
+}
+```
+
+---
+##  Struktur i en Spring Boot applikation
+```text
+src
+ └── main
+     └── java
+         └── dk.eksample
+             ├── controller
+             ├── service
+             ├── repository
+             └── model
+```
+
+- `controller` håndterer HTTP-forespørgsler
+- `service` indeholder forretningslogik
+- `repository` håndterer dataadgang
+- `model` indeholder klasser der beskriver applikationes data, dvs de data der flyder imellem client og server
+
+Det er vigtigt at alle pakker ligger under projektetes rod pakke, her: dk.example
+
+
+
+
+
+
+
+
 
 
 
