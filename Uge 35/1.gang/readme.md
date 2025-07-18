@@ -18,12 +18,12 @@ Vi tegner i dag sammen det “store billede” over de komponenter og teknologie
 ### Semestret – praktisk info
 Vi går igennem semesterplanen, de obligatoriske opgaver, kravene til eksamen og hvad I ellers måtte have af spørgsmål til 2. semester.
 
-**End points**
-Vi ser på hvad et endpoint er og hvordan man laver et endpont i Sprong Boot
+### End points
+Vi ser på hvad et endpoint er og laver vores først endpoints i Spring Boot
 
 ## Forberedelse
-Googl dig frem til lidt overordnet viden om de nye teknologier på 2. semester- se liste nedenfor. Brug ca. 20-30 minutter på dette.
-Se om du kan forstå client-server begrebet ud fra denne wiki [Client-server model](https://en.wikipedia.org/wiki/Client–server_model) (10  minutter)
+client-server begrebet [Client-server model](https://en.wikipedia.org/wiki/Client–server_model) (10  minutter)    
+
 Se disse videoer:  
 [HTTP Essential Training](https://www.linkedin.com/learning/http-essential-training/what-is-http?resume=false&u=36836804)  
 [Spring Boot REST API - Getting Started | Chapter-1 ](https://www.youtube.com/watch?v=A86pk2n-u9I&list=PLpxcSt9FGVVGRjn_Hgrxl6WJv4aFUDjKE&index=1)  
@@ -34,16 +34,16 @@ Se disse videoer:
 
 ## Læringsmål
 - Forstå HTTP protokollens virkemåde
--- request og response message
--- GET og POST kommandoer
--- statuskoder
+  - request og response message
+  - GET og POST kommandoer
+  - statuskoder
 - Forstå opbygningen af en URL inkl.
--- request parametre,
--- path variable, 
-- Lav dit første endpont i Spring Boot, herunder brug af annoteringerne:
--- `@Controller` (`@RestController`)
--- `@RequestParam` 
--- `@PathVariable`
+  - request parametre,
+  - path variable, 
+- Lav dit første get-endpoint i Spring Boot, herunder brug af annoteringerne:  
+  - `@Controller` (`@RestController`)
+  - `@RequestParam`
+  - `@PathVariable`
 --- 
 
 ## Indhold
