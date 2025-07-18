@@ -73,7 +73,7 @@ Semestret iudeholder tre "full-stack" projekter, som vist i nedenstående tabel:
 
 Opret en pakke `controller`
 
-<img src="assets/spring-boot3.png" alt="Alt Text" width="700">
+<img src="assets/spring-boot3.png" alt="Alt Text" width="500">
 
 Opret en klasse `WelcomeController` i `controller`pakken
 ```java
