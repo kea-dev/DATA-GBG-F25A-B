@@ -14,6 +14,8 @@ Følg rækkefølgen og læs forklaringerne til hvert lag.
 
 ## Model
 ```java
+package org.example.message.model;
+
 // Model-klassen der repræsenterer en besked.
 // Den indeholder to felter: id og content, samt en konstruktør og getters.
 public class Message {
@@ -37,6 +39,15 @@ public class Message {
 
 ## Repository
 ```java
+package org.example.message.repository;
+
+import org.example.message.model.Message;
+import org.springframework.stereotype.Repository;
+
+import java.util.ArrayList;
+import java.util.List;
+
+@Repository
 // Repository-klassen fungerer som et datalager i hukommelsen.
 // Den opretter 3 beskeder ved opstart og returnerer dem via en metode
 public class MessageRepository {
@@ -59,9 +70,19 @@ public class MessageRepository {
     }
 }
 
+
 ```
 ## Service
 ```java
+package org.example.message.service;
+
+import org.example.message.model.Message;
+import org.example.message.repository.MessageRepository;
+import org.springframework.stereotype.Service;
+
+import java.util.List;
+
+@Service
 // Service-laget indeholder forretningslogik og kalder repository-klassen.
 // Repository injiceres via konstruktøren (dependency injection).
 public class MessageService {
@@ -75,18 +96,30 @@ public class MessageService {
         return repository.getAllMessages();
     }
 }
+
 ```
 
 ## Controller
 ```java
+package org.example.message.controller;
+
+import org.example.message.model.Message;
+import org.example.message.service.MessageService;
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.GetMapping;
+
+import java.util.List;
+
+@Controller
 // Controller-klassen håndterer HTTP-anmodninger fra klienten.
 // Den bruger @Controller i stedet for @RestController og returnerer data via ResponseEntity.
-@Controller
 public class MessageController {
     private final MessageService service;
 
-    public MessageController() {
-        this.service = new MessageService();
+    public MessageController(MessageService messageService) {
+        this.service = messageService;
     }
 
     @GetMapping("/messages")
