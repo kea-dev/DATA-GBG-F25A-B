@@ -8,6 +8,7 @@ I denne opgave skal du implementere de grundlæggende lag i en REST-applikation 
 - En `Controller`
 
 Opret et Spring Boot projekt: `message`
+Opret pakkerne: `model`, `repository`, `service` og `controller` under projektets rodmappe
 Start med at oprette de nødvendige Java-klasser som vist i nedenstående kodeeksempler. Følg rækkefølgen og læs forklaringerne til hvert lag.
 
 ## Model
