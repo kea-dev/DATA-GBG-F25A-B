@@ -132,5 +132,9 @@ public class MessageController {
 
 
 ## Test det i browseren
-Test applikationen i browseren
+Test applikationen i browseren.  
+Følgende output skulle gene vises:  
+```text
+[{"id": 1,"content": "Velkommen til 1.semester"},{"id": 2,"content": "Velkommen til 2.semester"},{"id": 3,"content": "Velkommen til 3.semester"}]
+```
 
