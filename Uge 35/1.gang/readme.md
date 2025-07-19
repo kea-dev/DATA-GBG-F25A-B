@@ -101,7 +101,7 @@ Når man bruger @RestController, bliver objekter automatisk konverteret til [JSO
 Men når man bruger @Controller (som man normalt gør ved server-side rendering med Thymeleaf), forventer Spring, at man returnerer en String, som henviser til et view (f.eks. en .html-skabelon). Hvis man i stedet prøver at returnere data som objekter direkte, vil Spring forsøge at lede efter en Thymeleaf-side med det navn – og fejle hvis den ikke findes.
 
 ### Løsningen: ResponseEntity
-Ved at bruge ```ResponseEntity<>(dataObjekt, HttpStatus.STATUSKODE);``` kan man stadig returnere data fra en @Controller, men også http statuskoden.
+Ved at bruge ```ResponseEntity<>(dataObjekt, HttpStatus.STATUSKODE);``` kan man returnere data på JSON form fra en Controller sammen med http statuskoden.
 
 ### Eksempel med brug af @Controller
 ```java
