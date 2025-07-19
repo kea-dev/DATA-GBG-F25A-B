@@ -120,7 +120,7 @@ public class WelcomeController {
 src
  └── main
      └── java
-         └── dk.eksample
+         └── com.example.demo
              ├── controller
              ├── service
              ├── repository
@@ -132,7 +132,7 @@ src
 - `repository` håndterer dataadgang
 - `model` indeholder klasser der beskriver applikationes data, dvs de data der flyder imellem client og server
 
-Det er vigtigt at alle pakker ligger under projektetes rod pakke, her: dk.example
+Det er vigtigt at alle pakker ligger under projektetes rod pakke, her: com.example.demo
 
 
 
