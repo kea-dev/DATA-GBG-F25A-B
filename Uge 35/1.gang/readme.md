@@ -48,7 +48,7 @@ Se disse videoer:
 
 ## Indhold
 ### Didaktisk tilgang
-- Vi underviser projektbaseret, dvs det er projekerne der er det styrende element
+- Vi underviser projektbaseret, dvs det er projekterne der er det styrende element
 - Der er ikke "silo undervisng" i Programmering, Systemudvikling og Teknologi
 - De emner der undervises i er bestemt ud fra hvad der er behehov for i det projekt der arbejdes på. Nye emner bringers derfor "i context" med det samme
 - Alle emner i Porgrammering, Systemudvikling og Teknologi dækkes, men intensiteten af undervisningen i de enkelte fagområder varierer fra uge til uge
