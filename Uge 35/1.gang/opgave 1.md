@@ -1,4 +1,4 @@
-# Opgave 1: message endpoint
+# Opgave: message endpoint
 
 I denne opgave skal du implementere de grundlæggende lag i en REST-applikation i Spring Boot:
 
