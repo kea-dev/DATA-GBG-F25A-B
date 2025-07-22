@@ -113,6 +113,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 import java.util.List;
 
 @Controller
+@RequestMapping("message")
 // Controller-klassen håndterer HTTP-anmodninger fra klienten.
 // Den bruger @Controller i stedet for @RestController og returnerer data via ResponseEntity.
 public class MessageController {
@@ -122,7 +123,7 @@ public class MessageController {
         this.service = messageService;
     }
 
-    @GetMapping("/messages")
+    @GetMapping()
     public ResponseEntity<List<Message>> getMessages() {
         List<Message> messages = service.getMessages();
         return new ResponseEntity<>(messages, HttpStatus.OK);
