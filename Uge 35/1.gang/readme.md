@@ -52,6 +52,8 @@ Se disse videoer:
 - Der er ikke "silo undervisng" i Programmering, Systemudvikling og Teknologi
 - De emner der undervises i er bestemt ud fra hvad der er behehov for i det projekt der arbejdes på. Nye emner bringers derfor "i context" med det samme
 - Alle emner i Porgrammering, Systemudvikling og Teknologi dækkes, men intensiteten af undervisningen i de enkelte fagområder varierer fra uge til uge
+- Vi benytter "flipped classroom"
+  - undervisningsstrategi, der vender den traditionelle læringsmodel om. I stedet for at modtage direkte undervisning (som forelæsninger) i klassen og lave lektier uden for klassen, engagerer studerende sig i nyt indhold (som videoer eller læsninger) før timen og bruger derefter klassetiden til interaktive aktiviteter, diskussioner og problemløsning med underviserens vejledning.
 
 
 
@@ -90,7 +92,7 @@ public class WelcomeController {
     }
 }
 ```
-Afprøv allpikationen. Hvilken URl skal endponitet tilgås på?
+Afprøv applikationen. Hvilken URl skal endponitet tilgås på?
 
 Prøv herefter at tilføje en `@RequestMapping("ea")`. Hvilken URL skal endpointet nu tilgås på?
 
