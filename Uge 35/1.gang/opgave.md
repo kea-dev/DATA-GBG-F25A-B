@@ -147,3 +147,29 @@ Eksempelvis skal dette kald: `http://localhost:8080/message/2?caps=yes` give fø
 ```text
 {"id": 2, "content": "VELKOMMEN TIL 2.SEMESTER"}
 ```
+* Start med at lave repository metoden:
+  ```java
+   public Message findMessageById(int id) {
+     // kode
+    }
+  ```
+  Metoden skal returnere et Message objekt med et bestemt id hvis det findes, ellers null
+* Skriv herefter service metoden:
+  ```java
+  public Message findMessageById(int id, String caps) {
+    //kode
+  }
+  ```
+  Metoden skal kalde repository metoden fidgMessageById(Id).  
+  Hvis caps ikke er null og = "yes" skal message content laves om til store bogstaver.  
+  Message objekt returneres til sidst.
+
+* Skriv endelig controller metoden:
+```java
+    @GetMapping("{id}")
+    public ResponseEntity<Message> getMessageById(@PathVariable int id, @RequestParam(required = false) String caps) {
+      // kode
+    }
+```
+Hvis message blev fundet skal metoden returnere message objekt samt statuskoden HttpStatus.OK  
+Hvis message ikke blev fundet skal metoden returnere statuskoden HttpStatus.NOT_FOUND 
