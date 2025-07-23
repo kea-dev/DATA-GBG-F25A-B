@@ -139,6 +139,15 @@ src
 
 Det er vigtigt at alle pakker ligger under projektetes rod pakke, her: com.example.demo
 
+---
+## Aktiviteter
+* Lav [opgaven](opgave.md) til i dag   
+* Vi ser på en løsning i klassen   
+* Indskriv jer i holdlisterne på Teams.
+  * I vælger selv hvem i vil arbejde sammen med.
+  * Holdstørrelse: 2-4  
+
+
 
 
 
