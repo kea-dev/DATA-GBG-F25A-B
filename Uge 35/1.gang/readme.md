@@ -143,7 +143,7 @@ Det er vigtigt at alle pakker ligger under projektetes rod pakke, her: com.examp
 ## Aktiviteter
 * Lav [opgaven](opgave.md) til i dag   
 * Vi ser på en løsning i klassen   
-* Indskriv jer i holdlisterne på Teams.
+* Indskriv jer i holdlisterne på Teams: [A-klassen](https://studkea.sharepoint.com/:x:/r/sites/TeamDATA-GBG-F25AB-A/_layouts/15/Doc2.aspx?action=edit&sourcedoc=%7Bce411094-1bf1-4ddf-8b67-3169679aef94%7D&wdOrigin=TEAMS-MAGLEV.teamsSdk_ns.rwc&wdExp=TEAMS-TREATMENT&wdhostclicktime=1753255068888&web=1)  [B-klassen](https://studkea.sharepoint.com/:x:/r/sites/TeamDATA-GBG-F25AB-B/_layouts/15/Doc2.aspx?action=edit&sourcedoc=%7B1d7d94c9-dc21-4e30-b9d3-6a5b0430bb06%7D&wdOrigin=TEAMS-MAGLEV.teamsSdk_ns.rwc&wdExp=TEAMS-TREATMENT&wdhostclicktime=1753256485055&web=1)
   * I vælger selv hvem i vil arbejde sammen med.
   * Holdstørrelse: 2-4  
 
