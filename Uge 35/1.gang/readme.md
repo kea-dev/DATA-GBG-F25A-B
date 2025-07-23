@@ -115,7 +115,10 @@ public class WelcomeController {
     }
 }
 ```
-
+Hvis man blot vil returnere en statuskode, f.eks: 404: Not found, kan de gøres ved: 
+```java
+ResponseEntity<>(HttpStatus.NOT_FOUND);
+```
 ---
 ##  Struktur i en Spring Boot applikation
 ```text
