@@ -1,12 +1,13 @@
 ## Beskrivelse
 I dag skal I arbejde på Turistguide 1 afleveringen.  
-I skal oprette en privat teams kanal for gruppen og underviserne (se under forberedelse).   
-I skal starte et videomøde, som I holde åbent i hele undervisningstiden
-Vi "checker in" i jeres videomøde i løbet af dagen og får en status fra gruppen   
+Vi forventer at I "checker-in" i 'Hjælp' kanalen i henhold til tidspunkter i kan finde i gruppelisterne.  
+Formålet med check-in er at få en status på hvor langt gruppen er.
 
 ## Forberedelse
-Opret en privat teams kanal for jeres gruppe.  
-[Se video](https://www.youtube.com/watch?v=Qb9zEX1y1FI)
+Notér jeres "check-in" tid i gruppelisterne:  
+[A-klassen](https://studkea.sharepoint.com/:x:/r/sites/TeamDATA-GBG-F25AB-A/_layouts/15/Doc2.aspx?action=edit&sourcedoc=%7Bce411094-1bf1-4ddf-8b67-3169679aef94%7D&wdOrigin=TEAMS-MAGLEV.teamsSdk_ns.rwc&wdExp=TEAMS-TREATMENT&wdhostclicktime=1753255068888&web=1)  
+
+
 
 
 ## Læringsmål
