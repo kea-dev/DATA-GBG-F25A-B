@@ -51,10 +51,10 @@ Velkommen til Programmering Systemudvikling og Teknologi på 2. semester
 |     | [fredag 03-10](Uge%2040/4.gang/readme.md)                    | Database deployment                                        |
 |     | Testbar kode med lav kobling, interfaces, sessions           |                                                         |
 | 41  | [mandag 06-10](Uge%2041/1.gang/readme.md)                    | Test: Mockito + H2                            |
-|     | tirsdag 07-10                                                | Interfaces                                              |
-|     | onsdag 08-10                                                 | Check-in/vejledning på Turistguide 3                    |
-|     | torsdag 09-10                                                | Sessions                                                |
-|     | fredag 10-10                                                 | Turistguide del 3 - afslutning                          |
+|     | [tirsdag 07-10](Uge%2041/2.gang/readme.md)                   | Interfaces                                              |
+|     | [onsdag 08-10](Uge%2041/3.gang/readme.md)                                                 | Check-in/vejledning på Turistguide 3                    |
+|     | [torsdag 09-10](Uge%2041/4.gang/readme.md)                                                | Sessions                                                |
+|     | [fredag 10-10](Uge%2041/5.gang/readme.md)                                                 | Turistguide del 3 - afslutning                          |
 |     | EFTERÅRSFERIE                                                |                                                         |
 | 42  | Undervisningsfri                                             |                                                         |
 |     | **Miniprojekt**                                                  |                                                         |
