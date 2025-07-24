@@ -46,11 +46,11 @@ Velkommen til Programmering Systemudvikling og Teknologi på 2. semester
 |     | Jdbc, databaseintegration i Spring Boot, database deployment |                                                         |
 | 40  | mandag 29-09                                                 | ITF:                                                    |
 |     | tirsdag 30-09                                                | JDBCtemplate og Spring 1                                |
-|     | onsdag 01-10                                                 | Database deployment                                     |
+|     | onsdag 01-10                                                 | Azure deployment                                    |
 |     | torsdag 02-10                                                | JDBCtemplate og Spring 2                                |
-|     | fredag 03-10                                                 | Integrationstest                                        |
+|     | fredag 03-10                                                 | Database deployment                                        |
 |     | Testbar kode med lav kobling, interfaces, sessions           |                                                         |
-| 41  | mandag 06-10                                                 | Vejledning på Turistguide 3                             |
+| 41  | mandag 06-10                                                 | Test: Mockito + H2                            |
 |     | tirsdag 07-10                                                | Interfaces                                              |
 |     | onsdag 08-10                                                 | Check-in/vejledning på Turistguide 3                    |
 |     | torsdag 09-10                                                | Sessions                                                |
@@ -74,8 +74,8 @@ Velkommen til Programmering Systemudvikling og Teknologi på 2. semester
 | 45  | mandag 03-11                                                 | Wishlist - projektvejledning                            |
 |     | tirsdag 04-11                                                | Wishlist - projektvejledning                            |
 |     | onsdag 05-11                                                 | Wishlist - projektvejledning                            |
-|     | torsdag 06-11                                                | ITF: Retrospective                                      |
-|     | fredag 07-11                                                 | Afslutning Wishlist-projekt                             |
+|     | torsdag 06-11                                                | ITF: Fremlæggelse                                      |
+|     | fredag 07-11                                                 | Afslutning Wishlist-projekt: feedback & retrospective                             |
 |     | Eksamensprojekt                                              |                                                         |
 |     | Collections, readme og contribute og projektstart            |                                                         |
 | 46  | mandag 10-11                                                 | Repetition/buffer/Java Collections                      |
@@ -105,7 +105,7 @@ Velkommen til Programmering Systemudvikling og Teknologi på 2. semester
 | 50  | mandag 08-12                                                 | Eksamensprojekt - sprint 2                              |
 |     | tirsdag 09-12                                                | Eksamensprojekt - sprint 2                              |
 |     | onsdag 10-12                                                 | Eksamensprojekt - sprint 2                              |
-|     | torsdag 11-12                                                | ITF: Retrospective                                      |
+|     | torsdag 11-12                                                | ITF: Retrospective + projektvejledning                                     |
 |     | fredag 12-12                                                 | Eksamensprojekt - sprint 2                              |
 |     | Projektarbejde                                               |                                                         |
 | 51  | mandag 15-12                                                 | Rapportskrivning - afsluttende spørgsmål                |
