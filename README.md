@@ -38,19 +38,19 @@ Velkommen til Programmering Systemudvikling og Teknologi på 2. semester
 |     | [fredag 19-09](Uge%2038/4.gang/readme.md)                    | Feedback og review af Turistguide 2                     |
 |     | **Turistguide 3**                                            |                                                         |
 |     | Databaser, SQL, E/R modellering                              |                                                         |
-| 39  | mandag 22-09                                                 | Databaser - introduktion til SQL                        |
-|     | tirsdag 23-09                                                | SQL 2                                                   |
-|     | onsdag 24-09                                                 | E/R model og relationel model                           |
+| 39  | [mandag 22-09](Uge%2039/1.gang/readme.md)                    | Databaser - introduktion til SQL                        |
+|     | [tirsdag 23-09](Uge%2039/2.gang/readme.md)                   | SQL 2                                                   |
+|     | [onsdag 24-09](Uge%2039/3.gang/readme.md)                    | E/R model og relationel model                           |
 |     | torsdag 25-09                                                | ITF:                                                    |
-|     | fredag 26-09                                                 | Turistguide del 3, normalisering, SQL DDL               |
+|     | [fredag 26-09](Uge%2039/4.gang/readme.md)                    | Turistguide del 3, normalisering, SQL DDL               |
 |     | Jdbc, databaseintegration i Spring Boot, database deployment |                                                         |
 | 40  | mandag 29-09                                                 | ITF:                                                    |
-|     | tirsdag 30-09                                                | JDBCtemplate og Spring 1                                |
-|     | onsdag 01-10                                                 | Azure deployment                                    |
-|     | torsdag 02-10                                                | JDBCtemplate og Spring 2                                |
-|     | fredag 03-10                                                 | Database deployment                                        |
+|     | [tirsdag 30-09](Uge%2040/1.gang/readme.md)                   | JDBCtemplate og Spring 1                                |
+|     | [onsdag 01-10](Uge%2040/2.gang/readme.md)                    | Azure deployment                                    |
+|     | [torsdag 02-10](Uge%2040/3.gang/readme.md)                   | JDBCtemplate og Spring 2                                |
+|     | [fredag 03-10](Uge%2040/4.gang/readme.md)                    | Database deployment                                        |
 |     | Testbar kode med lav kobling, interfaces, sessions           |                                                         |
-| 41  | mandag 06-10                                                 | Test: Mockito + H2                            |
+| 41  | [mandag 06-10](Uge%2041/1.gang/readme.md)                    | Test: Mockito + H2                            |
 |     | tirsdag 07-10                                                | Interfaces                                              |
 |     | onsdag 08-10                                                 | Check-in/vejledning på Turistguide 3                    |
 |     | torsdag 09-10                                                | Sessions                                                |
