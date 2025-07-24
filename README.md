@@ -17,26 +17,26 @@ Velkommen til Programmering Systemudvikling og Teknologi på 2. semester
 |     | [onsdag 27-08](Uge%2035/3.gang/readme.md)                    | Check-in/vejledning på Turistguide 1                    |
 |     | torsdag 28-08                                                | ITF:                                                    |
 |     | [fredag 29-08](Uge%2035/4.gang/readme.md)                    | HTML & CSS 2 + feedback Turistguide 1                   |
-|     | **Turistguide 2**                                                |                                                         |
+|     | **Turistguide 2**                                            |                                                         |
 |     | Spring Boot arkitektur, Thymeleaf                            |                                                         |
-| 36  | [mandag 01-09](Uge%2036/1.gang/readme.md)                                                   | Spring Boot arkitektur, introduktion til ThymeLeaf, Map |
-|     | [tirsdag 02-09](Uge%2036/2.gang/readme.md)                                                | ThymeLeaf Expression Language,HTML forms, Turistguide 2 |
-|     | [onsdag 03-09](Uge%2036/3.gang/readme.md)                                                 | Check-in/vejledning på Turistguide 2                    |
+| 36  | [mandag 01-09](Uge%2036/1.gang/readme.md)                    | Spring Boot arkitektur, introduktion til ThymeLeaf, Map |
+|     | [tirsdag 02-09](Uge%2036/2.gang/readme.md)                   | ThymeLeaf Expression Language,HTML forms, Turistguide 2 |
+|     | [onsdag 03-09](Uge%2036/3.gang/readme.md)                    | Check-in/vejledning på Turistguide 2                    |
 |     | torsdag 04-09                                                | ITF:                                                    |
-|     | [fredag 05-09](Uge%2036/3.gang/readme.md)                                                 | MockMVC, Mockito og unit test af Controller             |
+|     | [fredag 05-09](Uge%2036/3.gang/readme.md)                    | MockMVC, Mockito og unit test af Controller             |
 |     | Git og kodekvalitet                                          |                                                         |
-| 37  | mandag 08-09                                                 | Operativsystemer, command shell & Git Bash              |
-|     | tirsdag 09-09                                                | Kode review med pull requests                           |
-|     | onsdag 10-09                                                 | Check-in/vejledning på Turistguide 2                    |
+| 37  | [mandag 08-09](Uge%2037/1.gang/readme.md)                    | Operativsystemer, command shell & Git Bash              |
+|     | [tirsdag 09-09](Uge%2037/2.gang/readme.md)                   | Kode review med pull requests                           |
+|     | [onsdag 10-09](Uge%2037/3.gang/readme.md)                    | Check-in/vejledning på Turistguide 2                    |
 |     | torsdag 11-09                                                | ITF:                                                    |
-|     | fredag 12-09                                                 | Statisk kodeanalyse med tools                           |
+|     | [fredag 12-09](Uge%2037/4.gang/readme.md)                    | Statisk kodeanalyse med tools                           |
 |     | DevOps, CI/CD                                                |                                                         |
-| 38  | mandag 15-09                                                 | GitHub Actions 1                                        |
-|     | tirsdag 16-09                                                | GitHub Actions 2                                        |
-|     | onsdag 17-09                                                 | Check-in/vejledning på Turistguide 2                    |
+| 38  | [mandag 15-09](Uge%2038/1.gang/readme.md)                    | GitHub Actions 1                                        |
+|     | [tirsdag 16-09](Uge%2038/2.gang/readme.md)                   | GitHub Actions 2                                        |
+|     | [onsdag 17-09](Uge%2038/3.gang/readme.md)                    | Check-in/vejledning på Turistguide 2                    |
 |     | torsdag 18-09                                                | ITF:                                                    |
-|     | fredag 19-09                                                 | Feedback og review af Turistguide 2                     |
-|     | **Turistguide 3**                                                |                                                         |
+|     | [fredag 19-09](Uge%2038/4.gang/readme.md)                    | Feedback og review af Turistguide 2                     |
+|     | **Turistguide 3**                                            |                                                         |
 |     | Databaser, SQL, E/R modellering                              |                                                         |
 | 39  | mandag 22-09                                                 | Databaser - introduktion til SQL                        |
 |     | tirsdag 23-09                                                | SQL 2                                                   |
