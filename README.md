@@ -19,11 +19,11 @@ Velkommen til Programmering Systemudvikling og Teknologi på 2. semester
 |     | [fredag 29-08](Uge%2035/4.gang/readme.md)                    | HTML & CSS 2 + feedback Turistguide 1                   |
 |     | **Turistguide 2**                                                |                                                         |
 |     | Spring Boot arkitektur, Thymeleaf                            |                                                         |
-| 36  | mandag 01-09                                                 | Spring Boot arkitektur, introduktion til ThymeLeaf, Map |
-|     | tirsdag 02-09                                                | ThymeLeaf Expression Language,HTML forms, Turistguide 2 |
-|     | onsdag 03-09                                                 | Check-in/vejledning på Turistguide 2                    |
+| 36  | [mandag 01-09](Uge%2036/1.gang/readme.md)                                                   | Spring Boot arkitektur, introduktion til ThymeLeaf, Map |
+|     | [tirsdag 02-09](Uge%2036/2.gang/readme.md)                                                | ThymeLeaf Expression Language,HTML forms, Turistguide 2 |
+|     | [onsdag 03-09](Uge%2036/3.gang/readme.md)                                                 | Check-in/vejledning på Turistguide 2                    |
 |     | torsdag 04-09                                                | ITF:                                                    |
-|     | fredag 05-09                                                 | MockMVC, Mockito og unit test af Controller             |
+|     | [fredag 05-09](Uge%2036/3.gang/readme.md)                                                 | MockMVC, Mockito og unit test af Controller             |
 |     | Git og kodekvalitet                                          |                                                         |
 | 37  | mandag 08-09                                                 | Operativsystemer, command shell & Git Bash              |
 |     | tirsdag 09-09                                                | Kode review med pull requests                           |
