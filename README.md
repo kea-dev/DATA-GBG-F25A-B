@@ -10,14 +10,14 @@ Velkommen til Programmering Systemudvikling og Teknologi på 2. semester
 | Uge | Dag                                                          | Emner                                                   |
 |-----|--------------------------------------------------------------|---------------------------------------------------------|
 |     |                                                              |                                                         |
-|     | Turistguide 1                                                |                                                         |
+|     | **Turistguide 1**                                                |                                                         |
 |     | Spring Boot intro, HTML/CSS                                  |                                                         |
 | 35  | [mandag 25-08](Uge%2035/1.gang/readme.md)                    | Introduktion til semester og Spring Boot                |
 |     | [tirsdag 26-08](Uge%2035/2.gang/readme.md)                   | Spring Boot/HTML & CSS                                  |
 |     | [onsdag 27-08](Uge%2035/3.gang/readme.md)                    | Check-in/vejledning på Turistguide 1                    |
 |     | torsdag 28-08                                                | ITF:                                                    |
 |     | [fredag 29-08](Uge%2035/4.gang/readme.md)                    | HTML & CSS 2 + feedback Turistguide 1                   |
-|     | Turistguide 2                                                |                                                         |
+|     | **Turistguide 2**                                                |                                                         |
 |     | Spring Boot arkitektur, Thymeleaf                            |                                                         |
 | 36  | mandag 01-09                                                 | Spring Boot arkitektur, introduktion til ThymeLeaf, Map |
 |     | tirsdag 02-09                                                | ThymeLeaf Expression Language,HTML forms, Turistguide 2 |
@@ -36,7 +36,7 @@ Velkommen til Programmering Systemudvikling og Teknologi på 2. semester
 |     | onsdag 17-09                                                 | Check-in/vejledning på Turistguide 2                    |
 |     | torsdag 18-09                                                | ITF:                                                    |
 |     | fredag 19-09                                                 | Feedback og review af Turistguide 2                     |
-|     | Turistguide 3                                                |                                                         |
+|     | **Turistguide 3**                                                |                                                         |
 |     | Databaser, SQL, E/R modellering                              |                                                         |
 | 39  | mandag 22-09                                                 | Databaser - introduktion til SQL                        |
 |     | tirsdag 23-09                                                | SQL 2                                                   |
@@ -57,7 +57,7 @@ Velkommen til Programmering Systemudvikling og Teknologi på 2. semester
 |     | fredag 10-10                                                 | Turistguide del 3 - afslutning                          |
 |     | EFTERÅRSFERIE                                                |                                                         |
 | 42  | Undervisningsfri                                             |                                                         |
-|     | Miniprojekt                                                  |                                                         |
+|     | **Miniprojekt**                                                  |                                                         |
 |     | UX/UI, GitHub Projects                                       |                                                         |
 | 43  | mandag 20-10                                                 | Kickoff - Wishlist-projekt & GitHub Projects            |
 |     | tirsdag 21-10                                                | User interface design                                   |
@@ -76,7 +76,7 @@ Velkommen til Programmering Systemudvikling og Teknologi på 2. semester
 |     | onsdag 05-11                                                 | Wishlist - projektvejledning                            |
 |     | torsdag 06-11                                                | ITF: Fremlæggelse                                      |
 |     | fredag 07-11                                                 | Afslutning Wishlist-projekt: feedback & retrospective                             |
-|     | Eksamensprojekt                                              |                                                         |
+|     | **Eksamensprojekt**                                              |                                                         |
 |     | Collections, readme og contribute og projektstart            |                                                         |
 | 46  | mandag 10-11                                                 | Repetition/buffer/Java Collections                      |
 |     | tirsdag 11-11                                                | Repetition/buffer/Java Collections                      |
