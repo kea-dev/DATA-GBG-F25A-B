@@ -87,10 +87,15 @@ Definition: En shell er et kommandotolkningsprogram, der giver brugeren mulighed
 * Shell kommandoer udføres i et command line interface (CLI)
   * Vi bruger en standard shell (bash), som er ens på tværs af OS
   * Bash shell bliver installeret ifm. installation af git
-### Shell kommandoer ###
-
+#### Bash Shell ####
+Bash shell installeres sammen med git og findes typisk her:  
+```bash
+C:\Program Files\Git\git-bash
+```
+Udover git kommandoer understøtter git-bash en lang række kommandore til interaktion med operativsystemets filsystem.  
+Se oversigt og eksempler her: [30 Bash Commands Cheat Sheet](https://phoenixnap.com/kb/bash-commands)  
 #### Nyttige Bash-genveje og tips ####
-Efterhånden som du bliver mere fortrolig med at bruge Bash, vil du opdage mange tidssparende genveje og tips. Her er nogle få, du måske finder nyttige:
+Efterhånden som du bliver mere fortrolig med at bruge Bash, vil du opdage mange tidssparende genveje og tips. Her er nogle:
 
 * Brug pil op og pil ned til at navigere gennem din kommandohistorik og hurtigt køre tidligere kommandoer igen.
 * Tryk på Tab for at autofuldføre filnavne og katalognavne, hvilket sparer tid og reducerer tastefejl.
