@@ -21,6 +21,15 @@ Opsætning af git bash terminal i IntelliJ: [Setting up git bash in IntelliJ](ht
 ## Indhold
 ### Operativsystemer
 
-|                    |                               |
-|--------------------|------------------------------|
+|  Definition: Et operativsystem (OS) er et program (software), der administrerer computerens hardware og software ressourcer.  
+Primære Funktioner:  
+Ressourcestyring: CPU, hukommelse, I/O enheder.  
+Filsystem: Organisering af data i filer og mapper.  
+Brugergrænseflade: CLI (Command Line Interface) og GUI (Graphical User Interface).  
+Eksempler på OS:  
+Desktop OS: Windows, macOS, Linux  
+Server OS: Ubuntu Server, CentOS, Windows Server  
+Mobile OS: Android, iOS3
+Embedded OS: Real-time OS'er til specifik hardware  |   <img src="assets/os.png" alt="Alt Text" width="300">  |
+|------------------------|------------------------------|
 | Turistguide        | Består af tre delprojekter der er "stilladserede", dvs det samlede projekte er opdelt i små delprojekte, hvor hvert enkelt delprojekt på forhånd er struktureret således at det understøtter bestemte læringsmål   |
