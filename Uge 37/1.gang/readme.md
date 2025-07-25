@@ -19,5 +19,8 @@ Opsætning af git bash terminal i IntelliJ: [Setting up git bash in IntelliJ](ht
 * Kunne anvende git bash 
 
 ## Indhold
-### Operatic systemer
+### Operativsystemer
 
+|                    |                               |
+|--------------------|------------------------------|
+| Turistguide        | Består af tre delprojekter der er "stilladserede", dvs det samlede projekte er opdelt i små delprojekte, hvor hvert enkelt delprojekt på forhånd er struktureret således at det understøtter bestemte læringsmål   |
