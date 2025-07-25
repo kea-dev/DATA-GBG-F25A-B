@@ -33,6 +33,40 @@ Definition: Et operativsystem (OS) er et program (software), der administrerer c
   - Mobile OS: Android, iOS
   - Embedded OS: Real-time OS'er til specifik hardware
 
+### Filsystem: Organisering af data i filer og mapper
+
+Et filsystem er den måde, et operativsystem organiserer og gemmer data på en harddisk eller anden lagringsenhed. Det giver en hierarkisk struktur af mapper (kataloger), hvor hver mappe kan indeholde filer og undermapper.
+
+Filsystemet gør det muligt for brugeren og systemet at finde og håndtere filer logisk og effektivt.
+
+#### Eksempel på katalogstruktur:
+```plaintext
+/home/
+├── student/
+│   └── projekter/
+│       ├── bash-opgave/
+│       │   ├── script.sh
+│       │   └── output.txt
+│       ├── java-projekt/
+│       │   ├── Main.java
+│       │   └── README.md
+│       └── noter.txt
+```
+
+Forklaring:
+- Mapper vises med `/` efter navnet.
+- Filer vises uden skråstreg.
+- `projekter/` indeholder to undermapper med tilhørende filer.
+- `noter.txt` er en fil direkte i `projekter/`.
+
+Hver mappe og fil kan tilgås via sin fulde sti, fx:  
+`/home/student/projekter/java-projekt/Main.java`
+
+Denne struktur gør det let at holde filer adskilt og organiseret efter projekter eller formål.
+
+
+
+
 
 
 
