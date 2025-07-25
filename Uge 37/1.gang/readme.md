@@ -64,6 +64,40 @@ Hver mappe og fil kan tilgås via sin fulde sti, fx:
 
 Denne struktur gør det let at holde filer adskilt og organiseret efter projekter eller formål.
 
+**Specielt for windows:**
+
+C:\ bliver til: /c/  
+D:\ bliver til: /d/  
+osv.  
+
+Bash bruger forward slash / som stiadskiller, i modsætning til backslash \ i klassisk Windows.  
+Eksempel:  
+```bash 
+touch /c/Users/student/projekter/noter.txt
+```  
+Denne kommando opretter en fil direkte i mappen projekter på C-drevet.
+
+## Shell ##
+<img src="assets/shell.png" alt="Alt Text" width="300">  
+Definition: En shell er et kommandotolkningsprogram, der giver brugeren mulighed for at interagere med operativsystemet ved hjælp af kommandoer.  
+
+* Typer af Shells:
+  * Bash (Bourne Again Shell): Standard for mange Linux-distributioner.
+  * Zsh (standard på mac, en extension af bash), Fish, Ksh: Alternative shells.
+* Shell kommandoer udføres i et command line interface (CLI)
+  * Vi bruger en standard shell (bash), som er ens på tværs af OS
+  * Bash shell bliver installeret ifm. installation af git
+### Shell kommandoer ###
+
+#### Nyttige Bash-genveje og tips ####
+Efterhånden som du bliver mere fortrolig med at bruge Bash, vil du opdage mange tidssparende genveje og tips. Her er nogle få, du måske finder nyttige:
+
+* Brug pil op og pil ned til at navigere gennem din kommandohistorik og hurtigt køre tidligere kommandoer igen.
+* Tryk på Tab for at autofuldføre filnavne og katalognavne, hvilket sparer tid og reducerer tastefejl.
+* Brug | (pipe) til at sende output fra en kommando som input til en anden, hvilket giver dig mulighed for at opbygge kraftfulde kommandokæder.
+* Brug & efter en kommando for at køre den i baggrunden, så du kan fortsætte med at bruge din terminal til andre opgaver.
+
+
 
 
 
