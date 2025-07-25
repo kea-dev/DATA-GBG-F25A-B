@@ -19,3 +19,5 @@ Opsætning af git bash terminal i IntelliJ: [Setting up git bash in IntelliJ](ht
 * Kunne anvende git bash 
 
 ## Indhold
+### Operatic systemer
+
