@@ -102,7 +102,21 @@ Efterhånden som du bliver mere fortrolig med at bruge Bash, vil du opdage mange
 * Brug | (pipe) til at sende output fra en kommando som input til en anden, hvilket giver dig mulighed for at opbygge kraftfulde kommandokæder.
 * Brug & efter en kommando for at køre den i baggrunden, så du kan fortsætte med at bruge din terminal til andre opgaver.
 
+### git ###
+#### Workflow ####
+<img src="assets/git_seq.png" alt="Alt Text" width="500"> 
 
+#### git commands ####
+<img src="assets/git_workflow.png" alt="Alt Text" width="500">   
+
+git status, git init
+git status viser status over hvilke filer de er staged og hvilke der er commited. I starten er der ikke noget git repo
+Når git init køres oprettes der et lolalt git repo og metadata om repoet findes i folderen .git
+
+
+
+
+[What Is Git Bash; Working with Git Bash Commands](https://phoenixnap.com/kb/what-is-git-bash)  
 
 
 
