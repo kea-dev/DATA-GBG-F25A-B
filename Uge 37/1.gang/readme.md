@@ -11,6 +11,8 @@ Opsætning af git bash terminal i IntelliJ: [Setting up git bash in IntelliJ](ht
 [Git Tutorial for Beginners: Command-Line Fundamentals](https://www.youtube.com/watch?v=HVsySz-h9r4)  
 
 ### Resourcer: ###
+[30 Bash Commands Cheat Sheet](https://phoenixnap.com/kb/bash-commands)  
+[What Is Git Bash; Working with Git Bash Commands](https://phoenixnap.com/kb/what-is-git-bash)  
 [Bash cheat sheet](https://github.com/RehanSaeed/Bash-Cheat-Sheet)  
 [Git cheat sheet](https://education.github.com/git-cheat-sheet-education.pdf)
 
