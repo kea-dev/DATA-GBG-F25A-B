@@ -9,6 +9,7 @@ Opsætning af git bash terminal i IntelliJ: [Setting up git bash in IntelliJ](ht
 ### Se disse videoer: ###
 [Lecture 1: Course Overview + The Shell (2020)](https://www.youtube.com/watch?v=Z56Jmr9Z34Q)  
 [Git Tutorial for Beginners: Command-Line Fundamentals](https://www.youtube.com/watch?v=HVsySz-h9r4)  
+[Create and Resolve Conflict Merge in Git and Github](https://www.youtube.com/watch?v=9At8XcYicF8) til (14.38)
 
 ### Resourcer: ###
 [30 Bash Commands Cheat Sheet](https://phoenixnap.com/kb/bash-commands)  
