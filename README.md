@@ -23,7 +23,7 @@ Velkommen til Programmering Systemudvikling og Teknologi på 2. semester
 |     | [tirsdag 02-09](Uge%2036/2.gang/readme.md)                   | ThymeLeaf Expression Language,HTML forms, Turistguide 2 |
 |     | [onsdag 03-09](Uge%2036/3.gang/readme.md)                    | Check-in/vejledning på Turistguide 2                    |
 |     | torsdag 04-09                                                | ITF:                                                    |
-|     | [fredag 05-09](Uge%2036/3.gang/readme.md)                    | MockMVC, Mockito og unit test af Controller             |
+|     | [fredag 05-09](Uge%2036/4.gang/readme.md)                    | MockMVC, Mockito og unit test af Controller             |
 |     | Git og kodekvalitet                                          |                                                         |
 | 37  | [mandag 08-09](Uge%2037/1.gang/readme.md)                    | Operativsystemer, command shell & Git Bash              |
 |     | [tirsdag 09-09](Uge%2037/2.gang/readme.md)                   | Kode review med pull requests                           |
