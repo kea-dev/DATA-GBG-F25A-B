@@ -1,5 +1,3 @@
-## Lektionsplan
-
 # DATA-GBG-F25A-B
 Velkommen til Programmering Systemudvikling og Teknologi på 2. semester
 
