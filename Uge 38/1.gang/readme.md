@@ -17,5 +17,4 @@ Se disse videoer:
 ## Indhold
 
 ## Aktiviteter
-
-https://www.youtube.com/watch?v=cP0I9w2coGU
+Gennemfør: [Hello GitHub Actions](https://github.com/skills/hello-github-actions)
