@@ -5,6 +5,7 @@ Vi kommer i gang med at automatisere vores software udviklingsproces ved at lave
 
 ## Forberedelse
 Se disse videoer:  
+[E1 - GitHub Actions: Write your first workflow with GitHub APIs || Beginner friendly tutorial](https://www.youtube.com/watch?v=-hVG9z0fCac&list=PLEeqf0uSZqXvliEmf2ez-PfhY73p-FHep&index=33)  (til 20:00)  
 [YAML | In One Video](https://www.youtube.com/watch?v=cdLNKUoMc6c)
 
 
