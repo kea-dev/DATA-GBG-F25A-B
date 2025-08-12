@@ -6,8 +6,8 @@ Vi ser på hvad DevOps er og kommer i gang med at automatisere vores software ud
 ## Forberedelse
 Se disse videoer (total : 40 min):  
 [CI/CD Explained | How DevOps Use Pipelines for Automation](https://www.youtube.com/watch?v=M4CXOocovZ4)  
-[GitHub Actions - Create a Simple GitHub Workflow](https://www.youtube.com/watch?v=sZ_Z8l95g4s)    
 [GitHub Actions - Supercharge your GitHub Flow](https://www.youtube.com/watch?v=cP0I9w2coGU)  
+[GitHub Actions - Create a Simple GitHub Workflow](https://www.youtube.com/watch?v=sZ_Z8l95g4s)    
 [YAML | In One Video](https://www.youtube.com/watch?v=cdLNKUoMc6c)
 
 
