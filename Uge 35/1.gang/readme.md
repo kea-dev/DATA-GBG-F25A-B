@@ -143,9 +143,12 @@ Det er vigtigt at alle pakker ligger under projektetes rod pakke, her: com.examp
 ## Aktiviteter
 * Lav [opgaven](opgave.md) til i dag   
 * Vi ser på en løsning i klassen   
-* Indskriv jer i holdlisterne på Teams: [A-klassen](https://erhvervsakademikbenhavn.sharepoint.com/:x:/r/sites/TeamDATA-GBG-F25AB/Delte%20dokumenter/A/GrupperTuristguideA.xlsx?d=w68225ce2b3fa4b0b9ee849d5150a8960&csf=1&web=1&e=CuxsSr)  [B-klassen](https://studkea.sharepoint.com/:x:/r/sites/TeamDATA-GBG-F25AB-B/_layouts/15/Doc2.aspx?action=edit&sourcedoc=%7B1d7d94c9-dc21-4e30-b9d3-6a5b0430bb06%7D&wdOrigin=TEAMS-MAGLEV.teamsSdk_ns.rwc&wdExp=TEAMS-TREATMENT&wdhostclicktime=1753256485055&web=1)
+* Indskriv jer i holdlisterne på Teams: [A-klassen](https://erhvervsakademikbenhavn.sharepoint.com/:x:/r/sites/TeamDATA-GBG-F25AB/Delte%20dokumenter/A/GrupperTuristguideA.xlsx?d=w68225ce2b3fa4b0b9ee849d5150a8960&csf=1&web=1&e=CuxsSr)  [B-klassen](https://erhvervsakademikbenhavn.sharepoint.com/:x:/r/sites/TeamDATA-GBG-F25AB/Delte%20dokumenter/B/GrupperTuristguideB.xlsx?d=w7c6371b03c004a8abef70fe4a847c169&csf=1&web=1&e=ITw9Dq)
   * I vælger selv hvem i vil arbejde sammen med.
-  * Gruppestørrelse: 2-4  
+  * Gruppestørrelse: 2-4
+
+I kolonnen "Check-in tider" kan I se hvornår I skal deltage i online checkin sessionen, som vi har hver onsdag
+
 
 
 
