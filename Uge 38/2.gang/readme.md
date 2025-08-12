@@ -6,7 +6,7 @@ Det betyder at der i workflow skal:
 - udføres statisk kodeanalyse (Qodana)
 - eksekveres unit tests
 ## Forberedelse
-Se disse videoer:  
+Se disse videoer (total : 14 min):  
 [Qodana Code Quality Platform – Overview](https://www.youtube.com/watch?v=WrhnUnzMUCg)  
 [Configure Qodana with GitHub Actions](https://www.youtube.com/watch?v=JrWQkqaXZFQ)
 
