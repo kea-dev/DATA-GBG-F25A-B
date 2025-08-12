@@ -12,6 +12,7 @@ Se disse videoer:
 
 
 ## Læringsmål
+- At kunne forklare hvad DevOps er  
 - At kunne forklare og anvende GitHub Flow
 - At kunne etablere et CI workflow med GitHub Actions
 
