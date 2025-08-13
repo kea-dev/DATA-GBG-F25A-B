@@ -52,6 +52,11 @@ flowchart LR
     DISPATCHERSERVLET --- CONTROLLER --- SERVICE --- REPOSITORY --- DB
 ```
 ---
+### Test af Controller
+- For at kunne teste en controller isoleret skal der mockes/simuleres http forespørelser og andre dependencies dvs. service laget
+  
+
+---
 ### MockMVC
 
 - MockMVC er en klasse i Spring test framework, der bruges til at teste web-laget (controller-laget) i en Spring Boot-applikation.
