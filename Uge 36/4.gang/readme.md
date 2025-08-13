@@ -26,6 +26,32 @@ Se videoer:
 ---
 ### Testniveauer
 ---
+### System Oversigt
+
+```mermaid
+flowchart LR
+    %% ==== Styles ====
+    classDef client fill:#ffffff,stroke:#111111,stroke-width:2px
+    classDef server fill:#dcfce7,stroke:#166534,stroke-width:2px
+    classDef infra fill:#fef9c3,stroke:#a16207,stroke-width:2px
+    classDef app fill:#e0f2fe,stroke:#075985,stroke-width:2px
+    classDef db fill:#ffffff,stroke:#111111,stroke-width:2px
+
+    %% ==== Nodes ====
+    HTTPCLIENT["HTTP Client<br/>(Browser)"]:::client
+    WEBSERVER["Web Server<br/>(Tomcat)"]:::server
+    DISPATCHERSERVLET["DispatcherServlet"]:::infra
+    CONTROLLER["Controller"]:::app
+    SERVICE["Service"]:::app
+    REPOSITORY["Repository"]:::app
+    DB["Database<br/>(MySQL)"]:::db
+
+    %% ==== Connections ====
+    HTTPCLIENT --- WEBSERVER
+    WEBSERVER --- DISPATCHERSERVLET
+    DISPATCHERSERVLET --- CONTROLLER --- SERVICE --- REPOSITORY --- DB
+```
+---
 ### MockMVC
 
 - MockMVC er en klasse i Spring test framework, der bruges til at teste web-laget (controller-laget) i en Spring Boot-applikation.
