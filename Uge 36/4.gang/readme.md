@@ -32,7 +32,7 @@ Se videoer:
 flowchart LR
     %% ==== Styles ====
     classDef client fill:#ffffff,stroke:#111111,stroke-width:2px
-    classDef server fill:#dcfce7,stroke:#166534,stroke-width:2px
+    classDef server fill:#e8c159,stroke:#a97f2f,stroke-width:2px
     classDef infra fill:#fef9c3,stroke:#a16207,stroke-width:2px
     classDef app fill:#e0f2fe,stroke:#075985,stroke-width:2px
     classDef db fill:#ffffff,stroke:#111111,stroke-width:2px
