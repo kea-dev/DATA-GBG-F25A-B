@@ -1,5 +1,5 @@
 
-# MockMVC, Mockito og unit test af Controller
+# MockMVC, Mockito og test af Controller
 
 ## Beskrivelse
 Vi skal se på forskellige slags test, og specifikt på unittest af controlleren.
