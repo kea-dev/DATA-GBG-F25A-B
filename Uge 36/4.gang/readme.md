@@ -48,7 +48,7 @@ Simulere HTTP GET forespørgsel og teste responsen
 
 - @WebMvcTest er en Spring Boot test-annotation, der bruges til at teste web-laget (controllerer)
 - @WebMvcTest bruges ofte med MockMVC for at simulere HTTP-anmodninger uden at starte en rigtig server
-- Loader kun web-laget (f.eks. controllere, konfiguration af Spring MVC), men ikke services eller repositories
+- Loader kun web-laget (f.eks. DispatcherServlet, controllere, konfiguration af Spring MVC), men ikke services eller repositories
 
 ---
 ### Mockito
