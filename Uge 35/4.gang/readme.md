@@ -29,7 +29,7 @@ Se videoer:
 
 - MockMVC er en klasse i Spring test framework, der bruges til at teste web-laget (controller-laget) i en Spring Boot-applikation.
 - Med MockMVC kan man simulere HTTP-forespørgsler til Spring MVC-controllere og verificere, hvordan controlleren håndterer dem.
-- MockMVC skabes en simuleret HTTP-forespørgsel uden at starte en rigtig webserver.
+- MockMVC skaber simulerede HTTP-forespørgsler uden at starte en rigtig webserver.
 
 Simulere HTTP GET forespørgsel
 ```java
@@ -53,6 +53,7 @@ Simulere HTTP GET forespørgsel og teste responsen
 ### Mockito
 ___
 ## Aktiviteter
+
 
 
 
