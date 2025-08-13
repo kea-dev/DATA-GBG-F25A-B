@@ -55,6 +55,26 @@ flowchart LR
 ### Test af Controller
 - For at kunne teste en controller isoleret skal der mockes/simuleres http forespørelser og andre dependencies dvs. service laget
   
+```mermaid
+flowchart LR
+    %% ==== Styles ====
+    classDef mockmvc fill:#dcfce7,stroke:#166534,stroke-width:2px
+    classDef infra fill:#fef9c3,stroke:#a16207,stroke-width:2px
+    classDef app fill:#e0f2fe,stroke:#075985,stroke-width:2px
+    classDef db fill:#ffffff,stroke:#111111,stroke-width:2px
+    classDef mocked fill:#e0f2fe,stroke:#075985,stroke-width:2px, stroke-dasharray: 5 5
+
+    %% ==== Nodes ====
+    MOCKMVC["MockMVC<br/>(@WebMvcTest context)"]:::mockmvc
+    DISPATCHERSERVLET["DispatcherServlet<br>(in-memory)"]:::infra
+    CONTROLLER["Controller"]:::app
+    SERVICE["Service<br>(mocked)"]:::mocked
+
+
+    %% ==== Connections ====
+    MOCKMVC --- DISPATCHERSERVLET
+    DISPATCHERSERVLET --- CONTROLLER --- SERVICE
+```
 
 ---
 ### MockMVC
