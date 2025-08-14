@@ -11,8 +11,7 @@ Velkommen til Programmering Systemudvikling og Teknologi på 2. semester
 |     | **Turistguide 1**                                                |                                                         |
 |     | Spring Boot intro, HTML/CSS                                  |                                                         |
 | 35  | [mandag 25-08](Uge%2035/1.gang/readme.md)                    | Introduktion til semester og Spring Boot                |
-|     | [tirsdag 26-08](Uge%2035/2.gang/readme.md)                   | Spring Boot, HTML & CSS, Turistguide 1
-|
+|     | [tirsdag 26-08](Uge%2035/2.gang/readme.md)                   | Spring Boot, HTML & CSS, Turistguide 1                  |
 |     | [onsdag 27-08](Uge%2035/3.gang/readme.md)                    | Check-in/vejledning på Turistguide 1                    |
 |     | torsdag 28-08                                                | ITF:                                                    |
 |     | [fredag 29-08](Uge%2035/4.gang/readme.md)                    | HTML & CSS 2 + feedback Turistguide 1                   |
