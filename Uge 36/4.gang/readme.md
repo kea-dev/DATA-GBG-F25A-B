@@ -14,17 +14,21 @@ Se videoer:
 - At kunne forklare mocking
 - At kunne anvende MockMVC testværktøj
 - At kunne anvende Mockito framework
-- At kunne skrive unit tests af Controller klasser
+- At kunne skrive tests af Controller klasser
 
 ---
 ## Indhold
 - Testniveauer
-- MockMVC
-- @WebMVCTest
+- MockMVC, @WebMVCTest
 - Mockito
-- Unittest af controllere
+- Test af controllere
+- "Focused" integration test af controller
 ---
 ### Testniveauer
+![Test Levels](assets/test-levels.jpeg)
+©️tuleap.org
+
+
 ---
 ### System Oversigt
 
@@ -53,7 +57,30 @@ flowchart LR
 ```
 ---
 ### Test af Controller
-- For at kunne teste en controller isoleret skal der mockes/simuleres http forespørelser og andre dependencies dvs. service laget
+- Der er forskellige niveauer af test, der kan udføres på en controller i en Spring Boot-applikation.
+```mermaid
+flowchart 
+    classDef unit fill:#dcfce7,stroke:#166534,stroke-width:2px
+    classDef slice fill:#fef9c3,stroke:#a16207,stroke-width:2px
+    classDef integration fill:#e0f2fe,stroke:#075985,stroke-width:2px
+    classDef e2e fill:#ffe4e6,stroke:#be123c,stroke-width:2px
+
+    Unit["Unit Test<br/><br/>(Controller only,<br/>no Spring context)"]:::unit
+    Slice["Web Layer Slice Test /<br/>Focused integration test<br/><br/>(@WebMvcTest + MockMvc,<br/>mocked services)"]:::slice
+    Int["Integration Test<br/><br/>(@SpringBootTest, mocked/real dependencies)"]:::integration
+    Sys["System Test<br/><br/>(@SpringBootTest, browser, full stack)"]:::integration
+    Accept["Acceptance Test<br/><br/>(Browser, full stack)"]:::e2e
+```
+- Unit test verificerer en enkelt klasse eller metode i isolation, typisk med alle afhængigheder mocket. 
+- Web layer slice test verificerer en controller ved at starte en minimal Spring-kontekst med @WebMvcTest og mocke de underliggende servicelag. 
+- Integrationstest verificerer samspillet mellem flere lag eller komponenter. 
+- Systemtest verificerer hele systemet som en samlet applikation i et realistisk miljø, typisk med alle lag og eksterne integrationer uden mocks. 
+- Acceptance / End-to-end test verificerer hele applikationen fra klient til database i et miljø, der simulerer den virkelige driftssituation.---
+
+---
+
+### Test af Controller
+- For at kunne teste en controller isoleret (web layer slice test) skal der mockes/simuleres http forespørelser og andre dependencies dvs. service laget
   
 ```mermaid
 flowchart LR
@@ -75,7 +102,12 @@ flowchart LR
     MOCKMVC --- DISPATCHERSERVLET
     DISPATCHERSERVLET --- CONTROLLER --- SERVICE
 ```
+---
+### Mocking
 
+- Mocking er at erstatte en afhængighed med et simuleret objekt, som returnerer kontrollerede værdier i en test sammenhæng
+- Mocking gør det muligt at isolere den kode, som skal teste, og simulere dens omgivelser på en kontrolleret måde
+- En mock kan returnere værdier og verificere, at bestemte kald er sket
 ---
 ### MockMVC
 
@@ -101,16 +133,19 @@ Simulere HTTP GET forespørgsel og teste responsen
 - @WebMvcTest bruges ofte med MockMVC for at simulere HTTP-anmodninger uden at starte en rigtig server
 - Loader kun web-laget (f.eks. DispatcherServlet, controllere, konfiguration af Spring MVC), men ikke services eller repositories
 
+```java
+  @WebMvcTest(HelloController.class) // loads MVC infra + this controller only
+  class HelloControllerTest {
+
+  @Autowired
+  MockMvc mockMvc;
+
+  //rest of the test code not shown
+
+  }
+  ```
+
 ---
 ### Mockito
 ___
 ## Aktiviteter
-
-
-
-
-
-
-
-
-
