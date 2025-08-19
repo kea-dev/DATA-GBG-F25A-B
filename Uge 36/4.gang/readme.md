@@ -79,7 +79,7 @@ flowchart
 
 ---
 
-### Test af Controller
+### Web slice test (focused integration test) af Controller
 - For at kunne teste en controller isoleret (web layer slice test) skal der mockes/simuleres http forespørelser og andre dependencies dvs. service laget
   
 ```mermaid
