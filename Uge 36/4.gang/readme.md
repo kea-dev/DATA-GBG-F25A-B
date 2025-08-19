@@ -2,7 +2,7 @@
 # MockMVC, Mockito og test af Controller
 
 ## Beskrivelse
-Vi skal se på forskellige slags test, og specifikt på unittest af controlleren.
+Vi skal se på forskellige slags test, og specifikt på test af controlleren.
 ## Forberedelse
 Læs: [Software Quality: understanding the different types of software testing](https://www.tuleap.org/software-quality-different-types-software-testing)
 
