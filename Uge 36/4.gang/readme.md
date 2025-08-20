@@ -22,7 +22,7 @@ Se videoer:
 - MockMVC, @WebMVCTest
 - Mockito
 - Test af controllere
-- "Focused" integration test af controller
+- Web layer slice / "Focused" integration test af controller
 ---
 ### Testniveauer
 ![Test Levels](assets/test-levels.jpeg)
@@ -75,7 +75,7 @@ flowchart
 - Web layer slice test verificerer en controller ved at starte en minimal Spring-kontekst med @WebMvcTest og mocke de underliggende servicelag. 
 - Integrationstest verificerer samspillet mellem flere lag eller komponenter. 
 - Systemtest verificerer hele systemet som en samlet applikation i et realistisk miljø, typisk med alle lag og eksterne integrationer uden mocks. 
-- Acceptance / End-to-end test verificerer hele applikationen fra klient til database i et miljø, der simulerer den virkelige driftssituation.---
+- Acceptance / End-to-end test verificerer hele applikationen fra klient til database i et miljø, der simulerer den virkelige driftssituation.
 
 ---
 
@@ -106,7 +106,7 @@ flowchart LR
 ### Mocking
 
 - Mocking er at erstatte en afhængighed med et simuleret objekt, som returnerer kontrollerede værdier i en test sammenhæng
-- Mocking gør det muligt at isolere den kode, som skal teste, og simulere dens omgivelser på en kontrolleret måde
+- Mocking gør det muligt at isolere den kode, som skal testes, og simulere dens omgivelser på en kontrolleret måde
 - En mock kan returnere værdier og verificere, at bestemte kald er sket
 ---
 ### MockMVC
