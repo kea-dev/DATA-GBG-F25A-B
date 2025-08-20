@@ -4,9 +4,11 @@
 ## Beskrivelse
 Vi skal se på forskellige slags test, og specifikt på test af controlleren.
 ## Forberedelse
-Læs: [Software Quality: understanding the different types of software testing](https://www.tuleap.org/software-quality-different-types-software-testing)
+Læs:
 
-Se videoer:
+[Software Quality: understanding the different types of software testing](https://www.tuleap.org/software-quality-different-types-software-testing)
+
+[How to Test Spring Boot Web Controller the Right Way](https://rieckpil.de/how-to-test-spring-boot-web-controller-the-right-way/)
 
 ---
 ## Læringsmål
@@ -126,6 +128,8 @@ Simulere HTTP GET forespørgsel og teste responsen
                 .andExpect(status().isOk())
                 .andExpect(view().name("hello-world"));
 ```
+[MockMvc API](https://docs.spring.io/spring-framework/docs/current/javadoc-api/org/springframework/test/web/servlet/MockMvc.html)
+
 ---
 ### @WebMVCTest
 
