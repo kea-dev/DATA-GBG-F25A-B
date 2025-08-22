@@ -1,3 +1,5 @@
+# Check-in/vejledning på Turistguide 1
+
 ## Beskrivelse
 I dag skal I arbejde på Turistguide 1 afleveringen.  
 Vi forventer at I "checker-in" i videomødet i kanal A (klasse A) eller kanal B (klasse B) på Teams i henhold til de tidspunkter i kan finde i gruppelisterne. Der er åben vejledning ved tutoren for de grupper der ikke snakker med underviseren. 
@@ -12,5 +14,6 @@ Notér jeres "check-in" tid i gruppelisterne:
 ## Læringsmål
 
 ## Indhold
+
 
 
