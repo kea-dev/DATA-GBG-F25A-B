@@ -11,6 +11,12 @@ I den forbindelse vil I også blive introduceret til datastrukturen Map i Java.
 Se denne video: [Spring Boot & Thymeleaf Tutorial (+ Bootstrap)](https://www.youtube.com/watch?v=KTBWCJPKiqk). Bootstrap kan du bare udelade.
 Prøv om du kan få eksemplet op at køre i et IntelliJ projekt på din egen maskine. Se bort fra den måde Spring Initialzr bruges på i indledningen af videoen. Du skal bruge Spring Initializr direkte i IntelliJ, som du plejer. Men husk at vælge Dependency: Spring Web og Templates engines → Thymeleaf.
 
+Se følgende afsnit i videoen [Thymeleaf Tutorial](https://www.youtube.com/watch?v=H86eB9g1o7A&list=PLGRDMO4rOGcNhzNRdqhmrJ_RaLOtpwZiS&index=10) på youtube:
+
+#9 Thymeleaf Link URL Expressions
+
+#14 Conditionals in Thymeleaf
+
 
 ## Læringsmål
 
