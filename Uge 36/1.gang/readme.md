@@ -1,8 +1,9 @@
-# Spring Boot arkitektur, introduktion til Thymeleaf
+# Spring Boot arkitektur, introduktion til Thymeleaf, Map
 
 ## Beskrivelse
 Vi skal se mere på arkitekturen i Spring Boot.
 Vi skal også arbejde med at få vist data dynamisk på en HTML side ved brug af server-side Java template enginen Thymeleaf.
+I den forbindelse vil I også blive introduceret til datastrukturen Map i Java.
 
 
 ## Forberedelse
@@ -18,6 +19,7 @@ controller, model, service, repository
 - at kende til Model-View-Controller (MVC)
 - at kunne forstå og anvende Dependency Injection af Service og Repository objekter
 - at kunne anvende simple Thymeleaf attributes i HTML sider
+- at forstå hvad en Map i Java er
 
 
 ## Indhold
