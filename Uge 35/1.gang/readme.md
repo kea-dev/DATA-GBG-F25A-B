@@ -1,14 +1,18 @@
 # Introduktion til semester og Spring Boot
 ## Beskrivelse
 ### Introduktion til  2. semester.
-Vi går fra tekstbaserede standalone applikationer til webapplikationer
+Vi går fra tekstbaserede stand-alone applikationer til webapplikationer
+
 Vi går fra tekstfiler til databaser
+
 Vi benytter stadig Scrum som udviklingsproces
+
 Vi stræber stadig efter godt programdesign og høj kundeværdi
+
 Vi vil optimere og automatisere vores udviklingsproces ud fra CI/CD principperne (Continuous Integration og Continuous Delivery)
 
 ### Nye teknologier
-Vi tegner i dag sammen det “store billede” over de komponenter og teknologier, som I kommer til at arbejde med i løbet af semestret:
+Vi tegner i dag sammen det “store billede” over de komponenter og teknologier, som I kommer til at arbejde med i løbet af semesteret:
 
  - Browser (HTML, CSS) Netværksprotokol (HTTP) Servere (Tomcat og MySQL)
   - Spring Boot Web MVC Framework (Java web applikationer)
@@ -19,8 +23,8 @@ Vi tegner i dag sammen det “store billede” over de komponenter og teknologie
 ### Semestret – praktisk info
 Vi går igennem semesterplanen, de obligatoriske opgaver, kravene til eksamen og hvad I ellers måtte have af spørgsmål til 2. semester.
 
-### End points
-Vi ser på hvad et endpoint er og laver vores først endpoints i Spring Boot
+### Endpoints
+Vi ser på hvad et endpoint er og laver vores første endpoints i Spring Boot
 
 ## Forberedelse
 client-server begrebet [Client-server model](https://en.wikipedia.org/wiki/Client–server_model) (10  minutter)    
@@ -58,10 +62,10 @@ Se disse videoer:
 
 
 ### Semestrets projekter
-Semestret iudeholder tre "full-stack" projekter, som vist i nedenstående tabel:
+Semestret indeholder tre "full-stack" projekter, som vist i nedenstående tabel:
 | Projekt | Bemærkninger                        |
 |--------------------|------------------------------|
-| Turistguide        | Består af tre delprojekter der er "stilladserede", dvs det samlede projekte er opdelt i små delprojekte, hvor hvert enkelt delprojekt på forhånd er struktureret således at det understøtter bestemte læringsmål   |
+| Turistguide        | Består af tre delprojekter der er "stilladserede", dvs det samlede projekt er opdelt i små delprojekter, hvor hvert enkelt delprojekt på forhånd er struktureret således at det understøtter bestemte læringsmål   |
 | Miniprojekt           | Scrum projekt med ét sprint              |
 | Eksamensprojekt    | Scrum projekt med tre sprints     |
 
@@ -92,7 +96,7 @@ public class WelcomeController {
     }
 }
 ```
-Afprøv applikationen. Hvilken URl skal endponitet tilgås på?
+Afprøv applikationen. Hvilken URl skal endpointet tilgås på?
 
 Prøv herefter at tilføje en `@RequestMapping("ek")`. Hvilken URL skal endpointet nu tilgås på?
 
@@ -115,7 +119,7 @@ public class WelcomeController {
     }
 }
 ```
-Hvis man blot vil returnere en statuskode, f.eks: 404: Not found, kan de gøres ved: 
+Hvis man blot vil returnere en statuskode, f.eks: 404: Not found, kan det gøres ved: 
 ```java
 ResponseEntity<>(HttpStatus.NOT_FOUND);
 ```
@@ -135,19 +139,20 @@ src
 - `controller` håndterer HTTP-forespørgsler
 - `service` indeholder forretningslogik
 - `repository` håndterer dataadgang
-- `model` indeholder klasser der beskriver applikationes data, dvs de data der flyder imellem client og server
+- `model` indeholder klasser der beskriver applikationens data, dvs de data der flyder imellem client og server
 
-Det er vigtigt at alle pakker ligger under projektetes rod pakke, her: com.example.demo
+Det er vigtigt at alle pakker ligger under projektets rod-pakke, her: com.example.demo
 
 ---
 ## Aktiviteter
 * Lav [opgaven](opgave.md) til i dag   
 * Vi ser på en løsning i klassen   
 * Indskriv jer i holdlisterne på Teams: [A-klassen](https://erhvervsakademikbenhavn.sharepoint.com/:x:/r/sites/TeamDATA-GBG-F25AB/Delte%20dokumenter/A/GrupperTuristguideA.xlsx?d=w68225ce2b3fa4b0b9ee849d5150a8960&csf=1&web=1&e=CuxsSr)  [B-klassen](https://erhvervsakademikbenhavn.sharepoint.com/:x:/r/sites/TeamDATA-GBG-F25AB/Delte%20dokumenter/B/GrupperTuristguideB.xlsx?d=w7c6371b03c004a8abef70fe4a847c169&csf=1&web=1&e=ITw9Dq)
-  * I vælger selv hvem i vil arbejde sammen med.
+  * I vælger selv hvem I vil arbejde sammen med.
   * Gruppestørrelse: 2-4
 
 I kolonnen "Check-in tider" kan I se hvornår I skal deltage i online checkin sessionen, som vi har hver onsdag
+
 
 
 
