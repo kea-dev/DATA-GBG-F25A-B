@@ -1,7 +1,7 @@
 # Databaser - introduktion til SQL
 
 ## Beskrivelse
-Vi skal nu til at gemme data til i en database fremfor en hardkodet ArrayList eller tekstfil.
+Vi skal nu til at gemme data i en database fremfor en hardkodet ArrayList eller tekstfil.
 Vi skal i dag arbejde med en MySQL database, så det er vigtigt at du har - i det mindste forsøgt - at installere denne inden undervisning.  Det gælder også MySQL WorkBench, som er det værktøj vi skal bruge til at tilgå databasen. 
 
 I bliver i dag introduceret til sproget SQL for at hente data fra en database vha. ‘SELECT’ kommando, der henter data fra én tabel.
