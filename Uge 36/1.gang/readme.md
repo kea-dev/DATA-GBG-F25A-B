@@ -19,9 +19,7 @@ Se følgende afsnit i videoen [Thymeleaf Tutorial](https://www.youtube.com/watch
 
 
 ## Læringsmål
-
-- at kunne udarbejde en webapplikation med en anbefalet lagdelt arkitektur:
-controller, model, service, repository 
+ 
 - at kende til Model-View-Controller (MVC)
 - at kunne forstå og anvende Dependency Injection af Service og Repository objekter
 - at kunne anvende simple Thymeleaf attributes i HTML sider
