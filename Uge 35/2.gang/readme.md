@@ -1,9 +1,10 @@
 # Spring Boot, HTML & CSS, Turistguide 1
 
 ## Beskrivelse
-Vi starter dagen med at se på hvordan I tester de endpoints I arbejdede med i går. I skal teste med testværktøjet “HTTP Client” i IntelliJ.
 
-Derefter gennemgår vi de grundlæggende principper for lave en hjemmeside med brug af HTML og CSS.
+Vi starter dagen med at se på hvordan I laver POST mappings i det projekt I arbejdede med i opgaven i går. Dernæst skal I teste både GET og POST endpoints med testværktøjet “HTTP Client” i IntelliJ.
+
+Dagens næste emne er de grundlæggende principper for lave en hjemmeside med brug af HTML og CSS.
 HTML (Hyper Text Markup Language) er den mest basale måde at lave en hjemmeside på.
 CSS (Cascading Style Sheets) anvendes til mere avanceret formatering og layout på hjemmesider.
 
@@ -24,6 +25,7 @@ Arbejd derefter med øvelserne på [W3Schools HTML Tutorials](https://www.w3scho
 
 ## Læringsmål
 
+- at kunne lave både GET og POST mappings i Spring Boot
 - at kunne teste et endpoint i Spring Boot med “HTTP Client” i IntelliJ
 - at kende til HTML
 - at kunne oprette simple HTML-sider
@@ -31,8 +33,8 @@ Arbejd derefter med øvelserne på [W3Schools HTML Tutorials](https://www.w3scho
 - at kunne style HTML sider med CSS box layout
 - at vide hvordan statiske HTML-sider fungerer i Spring Boot
 
-
 ## Indhold
 
 ## Aktiviteter
+
 
