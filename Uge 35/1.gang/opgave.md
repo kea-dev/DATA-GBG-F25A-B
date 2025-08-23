@@ -135,14 +135,14 @@ public class MessageController {
 ## Test det i browseren
 Test applikationen i browseren.  
 Gå til dette endpoint: `http://localhost:8080/message`  
-Følgende output skulle gene vises:  
+Følgende output skulle gerne vises:  
 ```text
 [{"id": 1,"content": "Velkommen til 1.semester"},{"id": 2,"content": "Velkommen til 2.semester"},{"id": 3,"content": "Velkommen til 3.semester"}]
 ```
 ---
 ## Udvid applikationen
 Du skal nu tilføje en `@PathVariable` (id)  og en `@RequestParam` (caps) til controller get-endpointet.  
-Controleren skal kunne modtage en en path til en bestem message, samt en request parameter, `caps`, der angiver om resultatet skal konverteres til store bogataver.  
+Controlleren skal kunne modtage en en path til en bestemt message, samt en request parameter, `caps`, der angiver om resultatet skal konverteres til store bogataver.  
 Eksempelvis skal dette kald: `http://localhost:8080/message/2?caps=yes` give følgende output:  
 ```text
 {"id": 2, "content": "VELKOMMEN TIL 2.SEMESTER"}
