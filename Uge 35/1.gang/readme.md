@@ -96,7 +96,7 @@ public class WelcomeController {
     }
 }
 ```
-Afprøv applikationen. Hvilken URl skal endpointet tilgås på?
+Afprøv applikationen. Hvilken URL skal endpointet tilgås på?
 
 Prøv herefter at tilføje en `@RequestMapping("ek")`. Hvilken URL skal endpointet nu tilgås på?
 
@@ -152,6 +152,7 @@ Det er vigtigt at alle pakker ligger under projektets rod-pakke, her: com.exampl
   * Gruppestørrelse: 2-4
 
 I kolonnen "Check-in tider" kan I se hvornår I skal deltage i online checkin sessionen, som vi har hver onsdag
+
 
 
 
