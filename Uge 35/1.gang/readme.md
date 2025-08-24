@@ -141,7 +141,12 @@ src
 - `repository` håndterer dataadgang
 - `model` indeholder klasser der beskriver applikationens data, dvs de data der flyder imellem client og server
 
-Det er vigtigt at alle pakker ligger under projektets rod-pakke, her: com.example.demo
+Det er vigtigt at alle pakker ligger under projektets rod-pakke, her: com.example.demo  
+
+---
+## HttpClient
+Udover at teste et end pont i browseren indeholder IntelliJ et testværktøj - HttpClient, det gør det muligt at teste et endpoint direkte fra IDE'et.  
+
 
 ---
 ## Aktiviteter
@@ -152,6 +157,7 @@ Det er vigtigt at alle pakker ligger under projektets rod-pakke, her: com.exampl
   * Gruppestørrelse: 2-4
 
 I kolonnen "Check-in tider" kan I se hvornår I skal deltage i online checkin sessionen, som vi har hver onsdag
+
 
 
 
