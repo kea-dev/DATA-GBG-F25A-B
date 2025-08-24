@@ -14,7 +14,7 @@ Følg rækkefølgen og læs forklaringerne til hvert lag.
 
 ## Model
 ```java
-package org.example.message.model;
+package com.example.message.model;
 
 // Model-klassen der repræsenterer en besked.
 // Den indeholder to felter: id og content, samt en konstruktør og getters.
@@ -39,9 +39,9 @@ public class Message {
 
 ## Repository
 ```java
-package org.example.message.repository;
+package com.example.message.repository;
 
-import org.example.message.model.Message;
+import com.example.message.model.Message;
 import org.springframework.stereotype.Repository;
 
 import java.util.ArrayList;
@@ -68,16 +68,23 @@ public class MessageRepository {
     public List<Message> getAllMessages() {
         return messages;
     }
+
+    public Message findMessageById(int id) {
+        for (Message message : messages) {
+            if (message.getId() == id) {
+                return message;
+            }
+        }
+        return null;
+    }
 }
-
-
 ```
 ## Service
 ```java
-package org.example.message.service;
+package com.example.message.service;
 
-import org.example.message.model.Message;
-import org.example.message.repository.MessageRepository;
+import com.example.message.model.Message;
+import com.example.message.repository.MessageRepository;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
@@ -95,20 +102,30 @@ public class MessageService {
     public List<Message> getMessages() {
         return repository.getAllMessages();
     }
-}
 
+    public Message findMessageById(int id, String caps) {
+        Message message = repository.findMessageById(id);
+        if (caps != null && caps.equals("yes")) {
+            return new Message(message.getId(), message.getContent().toUpperCase());
+        }
+        return message;
+    }
+}
 ```
 
 ## Controller
 ```java
-package org.example.message.controller;
+package com.example.message.controller;
 
-import org.example.message.model.Message;
-import org.example.message.service.MessageService;
+import com.example.message.model.Message;
+import com.example.message.service.MessageService;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestParam;
 
 import java.util.List;
 
@@ -132,13 +149,16 @@ public class MessageController {
 ```
 
 
-## Test det i browseren
-Test applikationen i browseren.  
+## Test
+### Test applikationen i browseren.  
 Gå til dette endpoint: `http://localhost:8080/message`  
 Følgende output skulle gerne vises:  
 ```text
 [{"id": 1,"content": "Velkommen til 1.semester"},{"id": 2,"content": "Velkommen til 2.semester"},{"id": 3,"content": "Velkommen til 3.semester"}]
 ```
+### HttpClient
+Brug HttpClient til at teste endpoints
+
 ---
 ## Udvid applikationen
 Du skal nu tilføje en `@PathVariable` (id)  og en `@RequestParam` (caps) til controller get-endpointet.  
