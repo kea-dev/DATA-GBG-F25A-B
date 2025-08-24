@@ -157,7 +157,31 @@ Følgende output skulle gerne vises:
 [{"id": 1,"content": "Velkommen til 1.semester"},{"id": 2,"content": "Velkommen til 2.semester"},{"id": 3,"content": "Velkommen til 3.semester"}]
 ```
 ### HttpClient
-Brug HttpClient til at teste endpoints
+Brug HttpClient til at teste endpoints.  
+Følgende output skulle gerne vises:  
+```text
+GET http://localhost:8080/message
+
+HTTP/1.1 200 
+Content-Type: application/json
+Transfer-Encoding: chunked
+Date: Sun, 24 Aug 2025 14:45:27 GMT
+
+[
+  {
+    "id": 1,
+    "content": "Velkommen til 1.semester"
+  },
+  {
+    "id": 2,
+    "content": "Velkommen til 2.semester"
+  },
+  {
+    "id": 3,
+    "content": "Velkommen til 3.semester"
+  }
+]
+```
 
 ---
 ## Udvid applikationen
