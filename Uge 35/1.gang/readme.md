@@ -145,7 +145,7 @@ Det er vigtigt at alle pakker ligger under projektets rod-pakke, her: com.exampl
 
 ---
 ## HttpClient
-Udover at teste et end pont i browseren indeholder IntelliJ et testværktøj - HttpClient, det gør det muligt at teste et endpoint direkte fra IDE'et.  
+Udover at teste et end point i browseren indeholder IntelliJ et testværktøj - HttpClient, det gør det muligt at teste et endpoint direkte fra IDE'et.  
 
 <img src="assets/httpclient1.jpg" alt="Alt Text" width="500">  
 
@@ -161,6 +161,7 @@ Udover at teste et end pont i browseren indeholder IntelliJ et testværktøj - H
   * Gruppestørrelse: 2-4
 
 I kolonnen "Check-in tider" kan I se hvornår I skal deltage i online checkin sessionen, som vi har hver onsdag
+
 
 
 
