@@ -15,6 +15,8 @@ I skal i gang med at lave den første del af Turistguide-projektet, som I får u
 
 ## Forberedelse
 
+Læs [Reading JSON in Spring with @RequestBody](https://www.appsdeveloperblog.com/read-json-request-body-in-spring-web-mvc/). Hvis I ser videoen, så vær opmærksom på at vi ikke tester endpoints med PostMan, men med HTTP Client som er indbygget i IntelliJ.
+
 Se video på LinkedInLearning: [HTML Essential Training](https://www.linkedin.com/learning/html-essential-training-4/what-is-html?u=36836804)  (sektion 1 til og med sektion 4)).
 
 Se fra “CSS syntax and terminology” i afsnit 2, samt hele afsnit 3 om “CSS Box Model” i [CSS Essential Training](https://www.linkedin.com/learning/css-essential-training-22688362/css-syntax-and-terminology?resume=false&u=36836804)
@@ -36,5 +38,6 @@ Arbejd derefter med øvelserne på [W3Schools HTML Tutorials](https://www.w3scho
 ## Indhold
 
 ## Aktiviteter
+
 
 
