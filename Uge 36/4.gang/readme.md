@@ -1,9 +1,14 @@
-
-# MockMVC, Mockito og test af Controller
+## MockMVC, Mockito og test af Controller
+---
 
 ## Beskrivelse
+
 Vi skal se på forskellige slags test, og specifikt på test af controlleren.
+
+---
+
 ## Forberedelse
+
 Læs:
 
 [Software Quality: understanding the different types of software testing](https://www.tuleap.org/software-quality-different-types-software-testing)
@@ -20,11 +25,16 @@ Læs:
 
 ---
 ## Indhold
+- Forberedelsen (Parvis: kommentarer og spørgsmål)
 - Testniveauer
 - MockMVC, @WebMVCTest
 - Mockito
 - Test af controllere
 - Web layer slice / "Focused" integration test af controller
+- Opgave: [Web layer slice test](opgave-weblayer-slice-test.md)
+- Opgave: [Forklar test begreberne](opgave-forklar-test-begreberne.md)
+- Opsummering
+- Opgave: [Turistguide controller test (weblag)](opgave-turistguide-controller-weblag-tests.md)
 ---
 ### Testniveauer
 ![Test Levels](assets/test-levels.jpeg)
@@ -117,21 +127,26 @@ flowchart LR
 - Med MockMVC kan man simulere HTTP-forespørgsler til Spring MVC-controllere og verificere, hvordan controlleren håndterer dem.
 - MockMVC skaber simulerede HTTP-forespørgsler uden at starte en rigtig webserver.
 
-Simulere HTTP GET forespørgsel
 ```java
- mockMvc.perform(get("/hello"));
+class HelloControllerTest {
+
+    @Autowired
+    private MockMvc mockMvc;
+
+    //rest of the test code not shown
 ```
 
 Simulere HTTP GET forespørgsel og teste responsen
 ```java
- mockMvc.perform(get("/hello"))
-                .andExpect(status().isOk())
-                .andExpect(view().name("hello-world"));
+mockMvc.perform(get("/hello"))
+        .andExpect(status().isOk())
+        .andExpect(view().name("hello-world"))
+        .andExpect(model().attribute("message", "Hello Web Layer Test!"));
 ```
 [MockMvc API](https://docs.spring.io/spring-framework/docs/current/javadoc-api/org/springframework/test/web/servlet/MockMvc.html)
 
 ---
-### @WebMVCTest
+### `@WebMVCTest`
 
 - @WebMvcTest er en Spring Boot test-annotation, der bruges til at teste web-laget (controllerer)
 - @WebMvcTest bruges ofte med MockMVC for at simulere HTTP-anmodninger uden at starte en rigtig server
@@ -148,8 +163,67 @@ Simulere HTTP GET forespørgsel og teste responsen
 
   }
   ```
+---
+### `@MockitoBean`
+- Når man kun ønske at teste web-laget, skal de underliggende services mockes
+- `@MockBean` er en Spring Boot test-annotation, der bruges til at oprette og injicere mocks.
+
+```java
+@WebMvcTest(HelloController.class) // only load web layer
+class HelloControllerTest {
+
+    @Autowired
+    private MockMvc mockMvc;
+
+    @MockitoBean
+    private GreetingService greetingService; // Mockito mock, injected into controller
+```
+ 
 
 ---
 ### Mockito
+
+[Mockito](https://site.mockito.org) er et Java bibliotek, der bruges til test. 
+Det gør det muligt at erstatte afhængigheder med mocks, 
+konfigurere deres metoder til at returnere bestemte værdier,
+og kontrollere om de blev kaldt som forventet.
+
+Mockitos `when-thenReturn` syntaks:
+
+```java
+ @Test
+    void helloEndpointShouldSayHello() throws Exception {
+        // Arrange: tell mock what to return
+        when(greetingService.getGreeting()).thenReturn("Hello Web Layer Test!");
+        
+        // rest of test code not shown
+```
+
+Mockitos `verify` metode:
+
+```java
+@Test
+    void helloEndpointShouldSayHello() throws Exception {
+        // Arrange: tell mock what to return
+        when(greetingService.getGreeting()).thenReturn("Hello Web Layer Test!");
+
+        // Act & Assert: perform request and check view
+        mockMvc.perform(get("/hello"))
+                .andExpect(status().isOk())
+                .andExpect(view().name("hello-world"))
+                .andExpect(model().attribute("message", "Hello Web Layer Test!"));
+
+        // Verify: service was called once
+        verify(greetingService).getGreeting();
+    }
+```
 ___
 ## Aktiviteter
+Lav følgende opgaver
+- [Web layer slice test](opgave-weblayer-slice-test.md)
+- [Forklar test begreberne](opgave-forklar-test-begreberne.md)
+- [Turistguide controller test (weblag)](opgave-turistguide-controller-weblag-tests.md)
+
+---
+## Opsummering
+
