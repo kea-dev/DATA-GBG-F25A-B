@@ -32,12 +32,13 @@ Arbejd derefter med øvelserne på [W3Schools HTML Tutorials](https://www.w3scho
 - at kende til HTML
 - at kunne oprette simple HTML-sider
 - at kende til brugen af CSS
-- at kunne style HTML sider med CSS box layout
+- at kende til CSS box layout
 - at vide hvordan statiske HTML-sider fungerer i Spring Boot
 
 ## Indhold
 
 ## Aktiviteter
+
 
 
 
