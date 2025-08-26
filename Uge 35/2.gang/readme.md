@@ -2,7 +2,7 @@
 
 ## Beskrivelse
 
-Vi starter dagen med at se på hvordan I laver POST mappings i det projekt I arbejdede med i opgaven i går. Dernæst skal I teste både GET og POST endpoints med testværktøjet “HTTP Client” i IntelliJ.
+Vi starter dagen med lidt repetition fra i går. Så skal vi se på hvordan I laver POST mappings, og derefter skal I gøre det i det projekt I arbejdede med i går. Dernæst skal I teste både GET og POST endpoints med testværktøjet “HTTP Client” i IntelliJ.
 
 Dagens næste emne er de grundlæggende principper for lave en hjemmeside med brug af HTML og CSS.
 HTML (Hyper Text Markup Language) er den mest basale måde at lave en hjemmeside på.
@@ -38,6 +38,7 @@ Arbejd derefter med øvelserne på [W3Schools HTML Tutorials](https://www.w3scho
 ## Indhold
 
 ## Aktiviteter
+
 
 
 
