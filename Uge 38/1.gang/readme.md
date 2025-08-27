@@ -21,5 +21,16 @@ Resourcer:
 
 ## Indhold
 
+### Dit første Github Actions workflow  
+
+Vi skal lave vores første workflow i GitHub Actions.  
+Ideen er at vi laver et workflov der består af to jobs:  
+- et jeb der udskriver "Hello world" til konsollen
+- et job der udskriver "Goodbye" til konsollen
+
+**Opet et nyt repository (du bestemmer sevl hvad et skal hedde)**  
+
+
+
 ## Aktiviteter
 Gennemfør: [Hello GitHub Actions](https://github.com/skills/hello-github-actions)
