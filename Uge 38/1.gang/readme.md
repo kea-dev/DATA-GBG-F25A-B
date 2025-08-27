@@ -23,14 +23,57 @@ Resourcer:
 
 ### Dit første Github Actions workflow  
 
-Vi skal lave vores første workflow i GitHub Actions.  
-Ideen er at vi laver et workflov der består af to jobs:  
+Vi skal lave vores første workflow i GitHub Actions. Ideen er at vi laver et workflov (test.yml), der består af to jobs:  
 - et jeb der udskriver "Hello world" til konsollen
 - et job der udskriver "Goodbye" til konsollen
 
-**Opet et nyt repository (du bestemmer sevl hvad et skal hedde)**  
-<img src="assets/spring-boot.png" alt="Alt Text" width="700">
+**test.yml**  
+```yml
+name: Hello and Goodbye Workflow
 
+on:
+  push:
+    branches:
+      - main           # Only run when pushing to the main branch
+  workflow_dispatch:   # Manual trigger from GitHub Actions UI
+
+jobs:
+  hello:
+    runs-on: ubuntu-latest # spin up a virtual ubuntu server on GitHub
+    steps:
+      - name: Say Hello
+        run: echo "Hello world"
+
+  goodbye:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Say Goodbye
+        run: echo "Goodbye"
+```
+
+
+**Opet et nyt repository (du bestemmer sevl hvad et skal hedde)**    
+<img src="assets/image1.jpg" alt="Alt Text" width="700">  
+
+**Opret test.yml fil**  
+test.yml skal ligge i sub-folderen: .github/workflows  
+<img src="assets/image2.jpg" alt="Alt Text" width="700">  
+
+**wokflow run**  
+Gå til "Actions" tab og observér at worflowet kører    
+<img src="assets/image3.jpg" alt="Alt Text" width="700"> 
+
+**wokflow complete**  
+Observér at worflowet afslutter uden fejl (grøn)      
+<img src="assets/image4.jpg" alt="Alt Text" width="700"> 
+
+**wokflow result**  
+Observér worflowet steps        
+<img src="assets/image5.jpg" alt="Alt Text" width="700">
+
+**wokflow detailed result**  
+Observér worflowet steppet "Say Hello"        
+<img src="assets/image6.jpg" alt="Alt Text" width="700">
 
 
 ## Aktiviteter
