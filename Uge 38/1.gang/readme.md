@@ -21,6 +21,12 @@ Resourcer:
 
 ## Indhold
 
+### DevOps  
+<img src="assets/DevOps.jpg" alt="Alt Text" width="700">  
+DevOps er en kulturel og organisatorisk tilgang, der fremmer samarbejde mellem udviklings- og driftsteams.  
+
+CI/CD (continuous integration and continuous delivery) er et sæt af praksisser til automatisering af bygge-, test- og idriftsættelseprocessen.
+
 ### Dit første Github Actions workflow  
 
 Vi skal lave vores første workflow i GitHub Actions. Ideen er at vi laver et workflov (test.yml), der består af to jobs:  
