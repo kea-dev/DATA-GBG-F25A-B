@@ -22,7 +22,7 @@ Resourcer:
 ## Indhold
 
 ### DevOps  
-<img src="assets/DevOps.jpg" alt="Alt Text" width="700">  
+<img src="assets/DevOps.jpg" alt="Alt Text" width="500">  
 DevOps er en kulturel og organisatorisk tilgang, der fremmer samarbejde mellem udviklings- og driftsteams.  
 
 CI/CD (continuous integration and continuous delivery) er et sæt af praksisser til automatisering af bygge-, test- og idriftsættelseprocessen.
