@@ -29,6 +29,7 @@ Ideen er at vi laver et workflov der består af to jobs:
 - et job der udskriver "Goodbye" til konsollen
 
 **Opet et nyt repository (du bestemmer sevl hvad et skal hedde)**  
+<img src="assets/spring-boot.png" alt="Alt Text" width="700">
 
 
 
