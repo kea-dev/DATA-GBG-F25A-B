@@ -10,7 +10,7 @@ Vi skal lave vores første Gitbuh workflow for et Spring boot projekt. Projektet
 
 ## Template action workflow fil
 Git hub actions tilbyder en række forskellige template filer til forskellige teknologier.  
-Vi skal navende "Java with Maven".  
+Vi skal anvende "Java with Maven".  
 - Gå til Actions tab og vælg "Java with Maven".
 
 <img src="assets/image7.jpg" alt="Alt Text" width="700">  
