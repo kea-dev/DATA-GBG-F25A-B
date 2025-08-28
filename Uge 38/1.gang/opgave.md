@@ -79,7 +79,7 @@ Steps i jobbet:
 1. Checkout
 ```yml
 - uses: actions/checkout@v4
-```
+```  
 Henter koden fra repository, så den kan bygges.
 
 2. Setup JDK 17
