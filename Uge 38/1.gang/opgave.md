@@ -13,4 +13,4 @@ Git hub actions tilbyder en række forskellige template filer til forskellige te
 Vi skal navende "Java with Maven".  
 - Gå til Actions tab og vælg "Java with Maven".
 
-
+<img src="assets/image7.jpg" alt="Alt Text" width="700">  
