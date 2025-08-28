@@ -101,3 +101,12 @@ Installerer Java 17 (Temurin distribution) og aktiverer caching af Maven-afhæng
 Bygger projektet:
 - -B = batch mode (ingen interaktiv input).
 - package = bygger projektet og laver en JAR-fil i target/.
+
+## Rettelser til maven.yml  
+- slet 'optional' sektkionen
+- ændrer java 17 til java 21
+- tilfæj 'workflow_dispatch' til triggers i on sektionen, så man kan køre workflow manuelt
+
+## Kør workflow  
+-  workflow køeres når ændringer i maven.yml committes
+-  workflow kan også køres manuelt via knappen 'Run workflow'
