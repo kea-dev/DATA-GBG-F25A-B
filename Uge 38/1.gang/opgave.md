@@ -53,3 +53,51 @@ jobs:
     - name: Update dependency graph
       uses: advanced-security/maven-dependency-submission-action@571e99aab1055c2e71a1e2309b9691de18d6b7d6
 ```
+
+
+Hvornår kører workflowet?
+```yml
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+```
+Workflowet starter når:
+- Der pushes kode til main.
+- Der laves en pull request ind til main.
+
+Job: build
+```yml
+jobs:
+  build:
+    runs-on: ubuntu-latest
+```
+Der defineres ét job, build, som kører på en virtuel Ubuntu-maskine.
+
+Steps i jobbet:  
+1. Checkout
+```yml
+- uses: actions/checkout@v4
+```
+Henter koden fra repository, så den kan bygges.
+
+2. Setup JDK 17
+```yml
+- name: Set up JDK 17
+  uses: actions/setup-java@v4
+  with:
+    java-version: '17'
+    distribution: 'temurin'
+    cache: maven
+```
+Installerer Java 17 (Temurin distribution) og aktiverer caching af Maven-afhængigheder, hvilket gør fremtidige builds hurtigere.  
+
+3. Build med Maven  
+```yml
+- name: Build with Maven
+  run: mvn -B package --file pom.xml
+```
+Bygger projektet:
+- -B = batch mode (ingen interaktiv input).
+- package = bygger projektet og laver en JAR-fil i target/.
